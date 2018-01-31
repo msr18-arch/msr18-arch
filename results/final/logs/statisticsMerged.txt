@@ -1,0 +1,981 @@
+All analyzed builds: 67023
+Num of errors: 8494
+Num of compilation or dependency errors: 1722
+No Error: 58529
+Dependency Error: 937
+Compilation Error: 785
+Test Error: 3999
+Other Error: 2773
+Builds Failed: 10168
+
+
+Successful analyzed projects
+
+
+Number of Projects: 159
+All analyzed builds: 49531
+Num of errors: 7465
+Num of compilation or dependency errors: 652
+No Error: 42066
+Dependency Error: 367
+Compilation Error: 285
+Test Error: 2447
+Other Error: 4366
+Pass Rate: 42066 / 49531
+Passes: 0.8492863055460217
+Change Rate per Metric: [ 0.01611753  0.03584843  0.16084249  0.03427947  0.03118908  0.66930538
+  0.39121856  0.39504588]
+
+
+######################################################################################################################################################
+NumNodes
+M vs Out (-2.891450956372966e-05, 0.99486570920813544)
+Changes over Threshold 0: 678
+Ch (0) vs Out : SpearmanrResult(correlation=0.0037602406000933567, pvalue=0.40267999003369648)
+P(fail | change): 111/678 = 0.163716814159
+P(change | fail): 111/7465 = 0.0148693904889
+Changes over Threshold 0.01: 678
+Ch (0.01) vs Out : SpearmanrResult(correlation=0.0037602406000933567, pvalue=0.40267999003369648)
+P(fail | change): 111/678 = 0.163716814159
+P(change | fail): 111/7465 = 0.0148693904889
+Changes over Threshold 0.02: 662
+Ch (0.02) vs Out : SpearmanrResult(correlation=0.0031333181586713334, pvalue=0.48560152194926731)
+P(fail | change): 107/662 = 0.16163141994
+P(change | fail): 107/7465 = 0.0143335565975
+Changes over Threshold 0.03: 588
+Ch (0.03) vs Out : SpearmanrResult(correlation=0.0042190307063383467, pvalue=0.34775670451665386)
+P(fail | change): 98/588 = 0.166666666667
+P(change | fail): 98/7465 = 0.0131279303416
+Changes over Threshold 0.04: 530
+Ch (0.04) vs Out : SpearmanrResult(correlation=0.0014490784423180393, pvalue=0.74707956676766107)
+P(fail | change): 84/530 = 0.158490566038
+P(change | fail): 84/7465 = 0.0112525117214
+Changes over Threshold 0.05: 513
+Ch (0.05) vs Out : SpearmanrResult(correlation=0.0017918002396579138, pvalue=0.69006603443666559)
+P(fail | change): 82/513 = 0.159844054581
+P(change | fail): 82/7465 = 0.0109845947756
+Changes over Threshold 0.1: 279
+Ch (0.1) vs Out : SpearmanrResult(correlation=0.0046535893444086367, pvalue=0.30035990778894883)
+P(fail | change): 49/279 = 0.175627240143
+P(change | fail): 49/7465 = 0.0065639651708
+Changes over Threshold 0.2: 134
+Ch (0.2) vs Out : SpearmanrResult(correlation=0.0044235475475058045, pvalue=0.32488678583261621)
+P(fail | change): 25/134 = 0.186567164179
+P(change | fail): 25/7465 = 0.00334896182184
+Changes over Threshold 0.5: 19
+Ch (0.5) vs Out : SpearmanrResult(correlation=-0.0051725129319926616, pvalue=0.24967035670899421)
+P(fail | change): 1/19 = 0.0526315789474
+P(change | fail): 1/7465 = 0.000133958472873
+M vs Bef (2): (-0.0034760989408023964, 0.43917179855947441)
+M vs Nxt (2): (-0.0029263758332535297, 0.51488307278009993)
+Ch (0) vs Bef (2): SpearmanrResult(correlation=0.0011653779584750591, pvalue=0.79536542831813406)
+Ch (0) vs Nxt (2): SpearmanrResult(correlation=0.0033557121683687081, pvalue=0.45518384401171086)
+Ch (0.01) vs Bef (2): SpearmanrResult(correlation=0.0011653779584750591, pvalue=0.79536542831813406)
+Ch (0.01) vs Nxt (2): SpearmanrResult(correlation=0.0033557121683687081, pvalue=0.45518384401171086)
+Ch (0.02) vs Bef (2): SpearmanrResult(correlation=0.00047850802347304506, pvalue=0.91519373678668181)
+Ch (0.02) vs Nxt (2): SpearmanrResult(correlation=0.0031108807872558767, pvalue=0.48874003556734258)
+Ch (0.03) vs Bef (2): SpearmanrResult(correlation=0.002171998503931362, pvalue=0.62883370898438506)
+Ch (0.03) vs Nxt (2): SpearmanrResult(correlation=0.0031793911969696057, pvalue=0.47921792228915916)
+Ch (0.04) vs Bef (2): SpearmanrResult(correlation=-0.00086788918130962286, pvalue=0.8468455137860853)
+Ch (0.04) vs Nxt (2): SpearmanrResult(correlation=-0.0012379212966067944, pvalue=0.78293679579831887)
+Ch (0.05) vs Bef (2): SpearmanrResult(correlation=-0.00014612187621562299, pvalue=0.97405835058510504)
+Ch (0.05) vs Nxt (2): SpearmanrResult(correlation=-0.00052835129597482368, pvalue=0.90639869988386823)
+Ch (0.1) vs Bef (2): SpearmanrResult(correlation=0.0048938052988233326, pvalue=0.27610940508980275)
+Ch (0.1) vs Nxt (2): SpearmanrResult(correlation=0.0042967109505484572, pvalue=0.33896205505195831)
+Ch (0.2) vs Bef (2): SpearmanrResult(correlation=0.0011970422966840826, pvalue=0.78993388123611885)
+Ch (0.2) vs Nxt (2): SpearmanrResult(correlation=0.0014224410743869074, pvalue=0.75157899261760086)
+Ch (0.5) vs Bef (2): SpearmanrResult(correlation=-0.0076648082691624592, pvalue=0.088046505804268732)
+Ch (0.5) vs Nxt (2): SpearmanrResult(correlation=-0.0048590506809951034, pvalue=0.27953422789364024)
+M vs Bef (3): (-0.0035179360408938215, 0.43368856427027958)
+M vs Nxt (3): (-0.0041109136779078001, 0.36026514559966372)
+Ch (0) vs Bef (3): SpearmanrResult(correlation=0.0005437046997666384, pvalue=0.90369276018005884)
+Ch (0) vs Nxt (3): SpearmanrResult(correlation=0.0045061194555317168, pvalue=0.31595178142102981)
+Ch (0.01) vs Bef (3): SpearmanrResult(correlation=0.0005437046997666384, pvalue=0.90369276018005884)
+Ch (0.01) vs Nxt (3): SpearmanrResult(correlation=0.0045061194555317168, pvalue=0.31595178142102981)
+Ch (0.02) vs Bef (3): SpearmanrResult(correlation=-0.00019888644604230347, pvalue=0.9646964883213166)
+Ch (0.02) vs Nxt (3): SpearmanrResult(correlation=0.0032471709795910079, pvalue=0.46990237609076757)
+Ch (0.03) vs Bef (3): SpearmanrResult(correlation=0.0019723964410679517, pvalue=0.66070215032977209)
+Ch (0.03) vs Nxt (3): SpearmanrResult(correlation=0.0036376567611023257, pvalue=0.41820537972481875)
+Ch (0.04) vs Bef (3): SpearmanrResult(correlation=-0.00029604318190529558, pvalue=0.94747144132806427)
+Ch (0.04) vs Nxt (3): SpearmanrResult(correlation=-0.00086733094213296098, pvalue=0.84694433343905029)
+Ch (0.05) vs Bef (3): SpearmanrResult(correlation=0.00037294475297095913, pvalue=0.93385444835302378)
+Ch (0.05) vs Nxt (3): SpearmanrResult(correlation=0.00012003637341476283, pvalue=0.97868841680773799)
+Ch (0.1) vs Bef (3): SpearmanrResult(correlation=0.0074831368318384441, pvalue=0.095843958184954073)
+Ch (0.1) vs Nxt (3): SpearmanrResult(correlation=0.0033709594859664053, pvalue=0.45314243348141414)
+Ch (0.2) vs Bef (3): SpearmanrResult(correlation=0.0021440945839878451, pvalue=0.63325222617898136)
+Ch (0.2) vs Nxt (3): SpearmanrResult(correlation=-0.00076687959596691193, pvalue=0.8644880452410868)
+Ch (0.5) vs Bef (3): SpearmanrResult(correlation=-0.0091865203320879735, pvalue=0.040909974296094997)
+Ch (0.5) vs Nxt (3): SpearmanrResult(correlation=-0.0043701324133561528, pvalue=0.33077793189850713)
+M vs Bef (5): (-0.002755505549481509, 0.53973884611948275)
+M vs Nxt (5): (-0.005867585033178674, 0.19162862812474771)
+Ch (0) vs Bef (5): SpearmanrResult(correlation=0.0034436553459692913, pvalue=0.44346863125704639)
+Ch (0) vs Nxt (5): SpearmanrResult(correlation=0.0028152484617681348, pvalue=0.53098497467625139)
+Ch (0.01) vs Bef (5): SpearmanrResult(correlation=0.0034436553459692913, pvalue=0.44346863125704639)
+Ch (0.01) vs Nxt (5): SpearmanrResult(correlation=0.0028152484617681348, pvalue=0.53098497467625139)
+Ch (0.02) vs Bef (5): SpearmanrResult(correlation=0.0030962696215293163, pvalue=0.49079705410847674)
+Ch (0.02) vs Nxt (5): SpearmanrResult(correlation=0.0020665171416344029, pvalue=0.64560188666796936)
+Ch (0.03) vs Bef (5): SpearmanrResult(correlation=0.005383231240351268, pvalue=0.23092235520873711)
+Ch (0.03) vs Nxt (5): SpearmanrResult(correlation=0.0035250340413222258, pvalue=0.43277074618322953)
+Ch (0.04) vs Bef (5): SpearmanrResult(correlation=0.0030461222540072138, pvalue=0.4978466127336022)
+Ch (0.04) vs Nxt (5): SpearmanrResult(correlation=-0.00030773472137042069, pvalue=0.94540122785405867)
+Ch (0.05) vs Bef (5): SpearmanrResult(correlation=0.0029871362036406912, pvalue=0.50620716334074944)
+Ch (0.05) vs Nxt (5): SpearmanrResult(correlation=-0.00046653023270486113, pvalue=0.9173113489932585)
+Ch (0.1) vs Bef (5): SpearmanrResult(correlation=0.0074446192810186705, pvalue=0.097572192996154536)
+Ch (0.1) vs Nxt (5): SpearmanrResult(correlation=0.003529645716663784, pvalue=0.43216900963982219)
+Ch (0.2) vs Bef (5): SpearmanrResult(correlation=0.0019549066170561824, pvalue=0.66353128020826491)
+Ch (0.2) vs Nxt (5): SpearmanrResult(correlation=-0.0044422443295148266, pvalue=0.32287042543911404)
+Ch (0.5) vs Bef (5): SpearmanrResult(correlation=-0.0074590105154793314, pvalue=0.096926112086874128)
+Ch (0.5) vs Nxt (5): SpearmanrResult(correlation=-0.0061576966977903635, pvalue=0.17058104746810848)
+M vs Bef (10): (0.0011720457818474709, 0.79423707490568474)
+M vs Nxt (10): (-0.0096331075646396494, 0.032058429072844549)
+Ch (0) vs Bef (10): SpearmanrResult(correlation=0.0050383582935958383, pvalue=0.26221102834823135)
+Ch (0) vs Nxt (10): SpearmanrResult(correlation=-0.0021970818444042779, pvalue=0.62490415674194288)
+Ch (0.01) vs Bef (10): SpearmanrResult(correlation=0.0050383582935958383, pvalue=0.26221102834823135)
+Ch (0.01) vs Nxt (10): SpearmanrResult(correlation=-0.0021970818444042779, pvalue=0.62490415674194288)
+Ch (0.02) vs Bef (10): SpearmanrResult(correlation=0.0051257514599619951, pvalue=0.25402464138005842)
+Ch (0.02) vs Nxt (10): SpearmanrResult(correlation=-0.0029489859104229383, pvalue=0.51167488379258264)
+Ch (0.03) vs Bef (10): SpearmanrResult(correlation=0.0072947140282062419, pvalue=0.10452608784422046)
+Ch (0.03) vs Nxt (10): SpearmanrResult(correlation=-0.0010611337268206455, pvalue=0.8133306083125047)
+Ch (0.04) vs Bef (10): SpearmanrResult(correlation=0.0060900732398704721, pvalue=0.17534699674527618)
+Ch (0.04) vs Nxt (10): SpearmanrResult(correlation=-0.004007594364518305, pvalue=0.37249818952314351)
+Ch (0.05) vs Bef (10): SpearmanrResult(correlation=0.0062088998962753009, pvalue=0.1670747542224931)
+Ch (0.05) vs Nxt (10): SpearmanrResult(correlation=-0.0052543509914848392, pvalue=0.24230461359055208)
+Ch (0.1) vs Bef (10): SpearmanrResult(correlation=0.0088107372559256564, pvalue=0.049917575256178827)
+Ch (0.1) vs Nxt (10): SpearmanrResult(correlation=-0.0017994743922288797, pvalue=0.68883768913075349)
+Ch (0.2) vs Bef (10): SpearmanrResult(correlation=0.0036575086479192103, pvalue=0.4157027711401331)
+Ch (0.2) vs Nxt (10): SpearmanrResult(correlation=-0.0088216595418270996, pvalue=0.049634524151063467)
+Ch (0.5) vs Bef (10): SpearmanrResult(correlation=0.0015613403690674379, pvalue=0.72825971900729303)
+Ch (0.5) vs Nxt (10): SpearmanrResult(correlation=-0.0042750334380718905, pvalue=0.34144349859013245)
+######################################################################################################################################################
+
+
+######################################################################################################################################################
+NumEdges
+M vs Out (-0.0040298171097427555, 0.36980461180532886)
+Changes over Threshold 0: 1508
+Ch (0) vs Out : SpearmanrResult(correlation=0.0032534794073335225, pvalue=0.46902660431371346)
+P(fail | change): 239/1508 = 0.15848806366
+P(change | fail): 239/7465 = 0.0320160750167
+Changes over Threshold 0.01: 1192
+Ch (0.01) vs Out : SpearmanrResult(correlation=0.001225309227057213, pvalue=0.78508947437603627)
+P(fail | change): 186/1192 = 0.156040268456
+P(change | fail): 186/7465 = 0.0249162759545
+Changes over Threshold 0.02: 922
+Ch (0.02) vs Out : SpearmanrResult(correlation=0.0018544764870138007, pvalue=0.67981610291396255)
+P(fail | change): 146/922 = 0.158351409978
+P(change | fail): 146/7465 = 0.0195579370395
+Changes over Threshold 0.03: 784
+Ch (0.03) vs Out : SpearmanrResult(correlation=0.0025605165377402409, pvalue=0.56878359428995906)
+P(fail | change): 126/784 = 0.160714285714
+P(change | fail): 126/7465 = 0.016878767582
+Changes over Threshold 0.04: 699
+Ch (0.04) vs Out : SpearmanrResult(correlation=0.0020395931434528374, pvalue=0.64989222758746379)
+P(fail | change): 112/699 = 0.160228898426
+P(change | fail): 112/7465 = 0.0150033489618
+Changes over Threshold 0.05: 618
+Ch (0.05) vs Out : SpearmanrResult(correlation=0.00089057738593411857, pvalue=0.84289012754035042)
+P(fail | change): 97/618 = 0.156957928803
+P(change | fail): 97/7465 = 0.0129939718687
+Changes over Threshold 0.1: 388
+Ch (0.1) vs Out : SpearmanrResult(correlation=-0.00060152240086376856, pvalue=0.89350630710707657)
+P(fail | change): 59/388 = 0.15206185567
+P(change | fail): 59/7465 = 0.00790354989953
+Changes over Threshold 0.2: 203
+Ch (0.2) vs Out : SpearmanrResult(correlation=0.00033572339647669258, pvalue=0.94044128012330874)
+P(fail | change): 32/203 = 0.15763546798
+P(change | fail): 32/7465 = 0.00428667113195
+Changes over Threshold 0.5: 38
+Ch (0.5) vs Out : SpearmanrResult(correlation=-0.0073164418999738324, pvalue=0.10346215950123797)
+P(fail | change): 2/38 = 0.0526315789474
+P(change | fail): 2/7465 = 0.000267916945747
+M vs Bef (2): (-0.0048823840060658111, 0.27723172208954411)
+M vs Nxt (2): (-0.0053631580933231728, 0.23265197309329558)
+Ch (0) vs Bef (2): SpearmanrResult(correlation=-0.0043534060240623248, pvalue=0.33262726368190976)
+Ch (0) vs Nxt (2): SpearmanrResult(correlation=0.0038970759474167061, pvalue=0.38578860568476081)
+Ch (0.01) vs Bef (2): SpearmanrResult(correlation=-0.0035324245999708822, pvalue=0.43179270429027583)
+Ch (0.01) vs Nxt (2): SpearmanrResult(correlation=0.0023093548622524929, pvalue=0.60729588406363488)
+Ch (0.02) vs Bef (2): SpearmanrResult(correlation=-0.0021968870657444687, pvalue=0.62490688651884962)
+Ch (0.02) vs Nxt (2): SpearmanrResult(correlation=0.00030703560624036481, pvalue=0.94552342544244228)
+Ch (0.03) vs Bef (2): SpearmanrResult(correlation=-0.0001993732900291854, pvalue=0.96460977022470817)
+Ch (0.03) vs Nxt (2): SpearmanrResult(correlation=0.0019668539209414847, pvalue=0.66159295650459793)
+Ch (0.04) vs Bef (2): SpearmanrResult(correlation=0.00058050416822117931, pvalue=0.89720841506278015)
+Ch (0.04) vs Nxt (2): SpearmanrResult(correlation=0.0015612085090195087, pvalue=0.72826068082743478)
+Ch (0.05) vs Bef (2): SpearmanrResult(correlation=0.00028077331594672251, pvalue=0.95017673468292929)
+Ch (0.05) vs Nxt (2): SpearmanrResult(correlation=0.00075043661912271744, pvalue=0.86736507859465661)
+Ch (0.1) vs Bef (2): SpearmanrResult(correlation=0.0033529173355343529, pvalue=0.45555943376869823)
+Ch (0.1) vs Nxt (2): SpearmanrResult(correlation=0.00039484803185716821, pvalue=0.92997868429184116)
+Ch (0.2) vs Bef (2): SpearmanrResult(correlation=0.0027825075255283921, pvalue=0.53576107709465437)
+Ch (0.2) vs Nxt (2): SpearmanrResult(correlation=4.8222883782688986e-06, pvalue=0.99914372754202263)
+Ch (0.5) vs Bef (2): SpearmanrResult(correlation=-0.0059859512712746692, pvalue=0.18280812417175815)
+Ch (0.5) vs Nxt (2): SpearmanrResult(correlation=-0.0070288705190334824, pvalue=0.11775585696581306)
+M vs Bef (3): (-0.0044699911677633253, 0.3198474834967987)
+M vs Nxt (3): (-0.0066925109458713756, 0.13638474178709475)
+Ch (0) vs Bef (3): SpearmanrResult(correlation=-0.003078068931232835, pvalue=0.49334070322107149)
+Ch (0) vs Nxt (3): SpearmanrResult(correlation=0.0024371304571083538, pvalue=0.58756519294879905)
+Ch (0.01) vs Bef (3): SpearmanrResult(correlation=-0.0033536942290847177, pvalue=0.45545956222482176)
+Ch (0.01) vs Nxt (3): SpearmanrResult(correlation=0.0019178548675381254, pvalue=0.66952059528460595)
+Ch (0.02) vs Bef (3): SpearmanrResult(correlation=-0.0014329389536308918, pvalue=0.74980912260412813)
+Ch (0.02) vs Nxt (3): SpearmanrResult(correlation=0.00036931221393925239, pvalue=0.93449725973323283)
+Ch (0.03) vs Bef (3): SpearmanrResult(correlation=-0.00024813803080977207, pvalue=0.95596204378451299)
+Ch (0.03) vs Nxt (3): SpearmanrResult(correlation=0.0013400420867795753, pvalue=0.7655371960779136)
+Ch (0.04) vs Bef (3): SpearmanrResult(correlation=0.0015435118124536274, pvalue=0.73122358471735982)
+Ch (0.04) vs Nxt (3): SpearmanrResult(correlation=0.0015356770020144219, pvalue=0.73253545881298554)
+Ch (0.05) vs Bef (3): SpearmanrResult(correlation=0.0018784126764662648, pvalue=0.67592632484926674)
+Ch (0.05) vs Nxt (3): SpearmanrResult(correlation=0.00080942282800118732, pvalue=0.85704923967503088)
+Ch (0.1) vs Bef (3): SpearmanrResult(correlation=0.0047333069341730909, pvalue=0.29217079368897569)
+Ch (0.1) vs Nxt (3): SpearmanrResult(correlation=0.00072562334801303408, pvalue=0.87171331274728281)
+Ch (0.2) vs Bef (3): SpearmanrResult(correlation=0.0023220305552335563, pvalue=0.60532864008569431)
+Ch (0.2) vs Nxt (3): SpearmanrResult(correlation=-0.00013456584276397027, pvalue=0.97610954481725964)
+Ch (0.5) vs Bef (3): SpearmanrResult(correlation=-0.005445595790730692, pvalue=0.22555464635740569)
+Ch (0.5) vs Nxt (3): SpearmanrResult(correlation=-0.0079289029367480661, pvalue=0.077639156638953752)
+M vs Bef (5): (-0.0040964416812248883, 0.36196832724467765)
+M vs Nxt (5): (-0.0074572695983221339, 0.097004086560047803)
+Ch (0) vs Bef (5): SpearmanrResult(correlation=-0.00087794807331378455, pvalue=0.84509741876176858)
+Ch (0) vs Nxt (5): SpearmanrResult(correlation=-0.0029718604676291799, pvalue=0.50838428909451783)
+Ch (0.01) vs Bef (5): SpearmanrResult(correlation=-0.0015990582026789921, pvalue=0.72195091133457345)
+Ch (0.01) vs Nxt (5): SpearmanrResult(correlation=-0.0020307472440485312, pvalue=0.65132629818187726)
+Ch (0.02) vs Bef (5): SpearmanrResult(correlation=-0.00034205621285190432, pvalue=0.93932301766823689)
+Ch (0.02) vs Nxt (5): SpearmanrResult(correlation=-0.0018516678529305202, pvalue=0.68028941961378475)
+Ch (0.03) vs Bef (5): SpearmanrResult(correlation=7.7586354850330108e-05, pvalue=0.98622443253983361)
+Ch (0.03) vs Nxt (5): SpearmanrResult(correlation=-0.00025277922786722602, pvalue=0.95514011907853946)
+Ch (0.04) vs Bef (5): SpearmanrResult(correlation=0.0030845121031736842, pvalue=0.49244505991968412)
+Ch (0.04) vs Nxt (5): SpearmanrResult(correlation=0.00039233353726994205, pvalue=0.9304255645402002)
+Ch (0.05) vs Bef (5): SpearmanrResult(correlation=0.0037760975878065425, pvalue=0.40072278383113558)
+Ch (0.05) vs Nxt (5): SpearmanrResult(correlation=0.00087500307919082703, pvalue=0.8456104799442774)
+Ch (0.1) vs Bef (5): SpearmanrResult(correlation=0.0033256447430768787, pvalue=0.45924726338645949)
+Ch (0.1) vs Nxt (5): SpearmanrResult(correlation=0.0017400439983449156, pvalue=0.69858777234899749)
+Ch (0.2) vs Bef (5): SpearmanrResult(correlation=0.00351475685436556, pvalue=0.43411346803466988)
+Ch (0.2) vs Nxt (5): SpearmanrResult(correlation=-0.00078339434873924015, pvalue=0.86160169594978675)
+Ch (0.5) vs Bef (5): SpearmanrResult(correlation=-0.0032621854719431685, pvalue=0.4678604457315767)
+Ch (0.5) vs Nxt (5): SpearmanrResult(correlation=-0.010989097210251717, pvalue=0.014462180337966467)
+M vs Bef (10): (-0.00055145854138731432, 0.902333011488898)
+M vs Nxt (10): (-0.010618399743212053, 0.018129976678924797)
+Ch (0) vs Bef (10): SpearmanrResult(correlation=0.00076593424498705301, pvalue=0.86466295466878274)
+Ch (0) vs Nxt (10): SpearmanrResult(correlation=-0.0076452633838235617, pvalue=0.088885464901521244)
+Ch (0.01) vs Bef (10): SpearmanrResult(correlation=0.0026965670404862541, pvalue=0.54846526022042674)
+Ch (0.01) vs Nxt (10): SpearmanrResult(correlation=-0.0064098406627904657, pvalue=0.15375849934105262)
+Ch (0.02) vs Bef (10): SpearmanrResult(correlation=0.0014374019921863904, pvalue=0.74907319168986042)
+Ch (0.02) vs Nxt (10): SpearmanrResult(correlation=-0.0076991330140693398, pvalue=0.086658389346479667)
+Ch (0.03) vs Bef (10): SpearmanrResult(correlation=0.0026979513038494535, pvalue=0.54825999483303156)
+Ch (0.03) vs Nxt (10): SpearmanrResult(correlation=-0.0048699387209654261, pvalue=0.27849701835720092)
+Ch (0.04) vs Bef (10): SpearmanrResult(correlation=0.0047094026895690231, pvalue=0.29464895408406722)
+Ch (0.04) vs Nxt (10): SpearmanrResult(correlation=-0.0037546060954804245, pvalue=0.40343278481352818)
+Ch (0.05) vs Bef (10): SpearmanrResult(correlation=0.0071925288882723291, pvalue=0.10947521392777301)
+Ch (0.05) vs Nxt (10): SpearmanrResult(correlation=-0.0026981165601294927, pvalue=0.54823549235402802)
+Ch (0.1) vs Bef (10): SpearmanrResult(correlation=0.007583394566953245, pvalue=0.091499892469371583)
+Ch (0.1) vs Nxt (10): SpearmanrResult(correlation=-0.0020582367560606934, pvalue=0.646941794647516)
+Ch (0.2) vs Bef (10): SpearmanrResult(correlation=0.005324168536143513, pvalue=0.23610347298208229)
+Ch (0.2) vs Nxt (10): SpearmanrResult(correlation=-0.0041836567212850759, pvalue=0.35186243287375873)
+Ch (0.5) vs Bef (10): SpearmanrResult(correlation=0.0016743638473398562, pvalue=0.70945189981248868)
+Ch (0.5) vs Nxt (10): SpearmanrResult(correlation=-0.011594600922104939, pvalue=0.0098741798798615572)
+######################################################################################################################################################
+
+
+######################################################################################################################################################
+AbsInst
+M vs Out (0.0022653911325171785, 0.61414653600407498)
+Changes over Threshold 0: 6766
+Ch (0) vs Out : SpearmanrResult(correlation=0.030041796224299661, pvalue=2.2730876394531028e-11)
+P(fail | change): 1207/6766 = 0.178391959799
+P(change | fail): 1207/7465 = 0.161687876758
+Changes over Threshold 0.01: 730
+Ch (0.01) vs Out : SpearmanrResult(correlation=0.012755678744350523, pvalue=0.0045270516601104514)
+P(fail | change): 139/730 = 0.190410958904
+P(change | fail): 139/7465 = 0.0186202277294
+Changes over Threshold 0.02: 451
+Ch (0.02) vs Out : SpearmanrResult(correlation=0.005064262529672214, pvalue=0.2597176110264382)
+P(fail | change): 78/451 = 0.172949002217
+P(change | fail): 78/7465 = 0.0104487608841
+Changes over Threshold 0.03: 300
+Ch (0.03) vs Out : SpearmanrResult(correlation=0.0051882235714968096, pvalue=0.248235053773877)
+P(fail | change): 54/300 = 0.18
+P(change | fail): 54/7465 = 0.00723375753516
+Changes over Threshold 0.04: 219
+Ch (0.04) vs Out : SpearmanrResult(correlation=0.0034026824150320705, pvalue=0.4488886327493693)
+P(fail | change): 38/219 = 0.173515981735
+P(change | fail): 38/7465 = 0.00509042196919
+Changes over Threshold 0.05: 155
+Ch (0.05) vs Out : SpearmanrResult(correlation=0.0017189571536954508, pvalue=0.70205034382942766)
+P(fail | change): 26/155 = 0.167741935484
+P(change | fail): 26/7465 = 0.00348292029471
+Changes over Threshold 0.1: 33
+Ch (0.1) vs Out : SpearmanrResult(correlation=-0.0028958690465095524, pvalue=0.51926617314478596)
+P(fail | change): 4/33 = 0.121212121212
+P(change | fail): 4/7465 = 0.000535833891494
+Changes over Threshold 0.2: 4
+Ch (0.2) vs Out : SpearmanrResult(correlation=-0.0037729688487883827, pvalue=0.40108940976682983)
+P(fail | change): 0/4 = 0.0
+P(change | fail): 0/7465 = 0.0
+Changes over Threshold 0.5: 0
+M vs Bef (2): (-0.00090418815228544488, 0.84052417157754333)
+M vs Nxt (2): (0.00043894423662642687, 0.92218237146503157)
+Ch (0) vs Bef (2): SpearmanrResult(correlation=0.017532963952208734, pvalue=9.53293710640097e-05)
+Ch (0) vs Nxt (2): SpearmanrResult(correlation=0.031250738757750855, pvalue=3.4905251782484414e-12)
+Ch (0.01) vs Bef (2): SpearmanrResult(correlation=0.0096731539093857337, pvalue=0.031336975787292796)
+Ch (0.01) vs Nxt (2): SpearmanrResult(correlation=0.011069285158048692, pvalue=0.013758978526254805)
+Ch (0.02) vs Bef (2): SpearmanrResult(correlation=0.0020778020677612364, pvalue=0.64379019656830894)
+Ch (0.02) vs Nxt (2): SpearmanrResult(correlation=0.0040788768018227501, pvalue=0.36401589218898767)
+Ch (0.03) vs Bef (2): SpearmanrResult(correlation=0.0052773309905486615, pvalue=0.24021304799601506)
+Ch (0.03) vs Nxt (2): SpearmanrResult(correlation=0.0038629725704431195, pvalue=0.38995974285097967)
+Ch (0.04) vs Bef (2): SpearmanrResult(correlation=0.003062017184887948, pvalue=0.4955932807832899)
+Ch (0.04) vs Nxt (2): SpearmanrResult(correlation=0.0017770197624242254, pvalue=0.69249748497538643)
+Ch (0.05) vs Bef (2): SpearmanrResult(correlation=0.0012004490527348687, pvalue=0.78935010531157801)
+Ch (0.05) vs Nxt (2): SpearmanrResult(correlation=0.0016101181826912077, pvalue=0.7201002685067257)
+Ch (0.1) vs Bef (2): SpearmanrResult(correlation=-0.0019034062890685057, pvalue=0.67186128277959822)
+Ch (0.1) vs Nxt (2): SpearmanrResult(correlation=-0.0039019582062231727, pvalue=0.38519370113072238)
+Ch (0.2) vs Bef (2): SpearmanrResult(correlation=-0.0045662494779428256, pvalue=0.30953245445351324)
+Ch (0.2) vs Nxt (2): SpearmanrResult(correlation=0.00013669390078785426, pvalue=0.97573160584692387)
+M vs Bef (3): (0.00047707926544657259, 0.91544685542460902)
+M vs Nxt (3): (0.00025097706989729888, 0.95545870996141014)
+Ch (0) vs Bef (3): SpearmanrResult(correlation=0.021965031555015335, pvalue=1.0147345099302659e-06)
+Ch (0) vs Nxt (3): SpearmanrResult(correlation=0.033252613303905276, pvalue=1.3395497155830831e-13)
+Ch (0.01) vs Bef (3): SpearmanrResult(correlation=0.01140681021504268, pvalue=0.011129977523314565)
+Ch (0.01) vs Nxt (3): SpearmanrResult(correlation=0.011796358707018072, pvalue=0.0086574841993334369)
+Ch (0.02) vs Bef (3): SpearmanrResult(correlation=0.0039423028691488509, pvalue=0.38030399107541235)
+Ch (0.02) vs Nxt (3): SpearmanrResult(correlation=0.0045129093126353784, pvalue=0.31522312537121039)
+Ch (0.03) vs Bef (3): SpearmanrResult(correlation=0.0072720133825320988, pvalue=0.10558526992862173)
+Ch (0.03) vs Nxt (3): SpearmanrResult(correlation=0.0024452614014451924, pvalue=0.58631951017204165)
+Ch (0.04) vs Bef (3): SpearmanrResult(correlation=0.0070258792837582041, pvalue=0.11791592086948566)
+Ch (0.04) vs Nxt (3): SpearmanrResult(correlation=-8.014845644583487e-06, pvalue=0.99857685409184005)
+Ch (0.05) vs Bef (3): SpearmanrResult(correlation=0.0049474334885524478, pvalue=0.27088591327308714)
+Ch (0.05) vs Nxt (3): SpearmanrResult(correlation=0.00036522072094008929, pvalue=0.93522133838575627)
+Ch (0.1) vs Bef (3): SpearmanrResult(correlation=-0.00064225896332800281, pvalue=0.88634513788152014)
+Ch (0.1) vs Nxt (3): SpearmanrResult(correlation=-0.0014642322244615056, pvalue=0.74453392844615152)
+Ch (0.2) vs Bef (3): SpearmanrResult(correlation=-0.0051553979240019695, pvalue=0.25125490482607865)
+Ch (0.2) vs Nxt (3): SpearmanrResult(correlation=0.00013144399705332071, pvalue=0.97666362890846581)
+M vs Bef (5): (0.0002767975797892373, 0.950882817154166)
+M vs Nxt (5): (-0.00040809503786775995, 0.92763802746631763)
+Ch (0) vs Bef (5): SpearmanrResult(correlation=0.025217914577757548, pvalue=1.9901422311664492e-08)
+Ch (0) vs Nxt (5): SpearmanrResult(correlation=0.031939643963688862, pvalue=1.163607555997583e-12)
+Ch (0.01) vs Bef (5): SpearmanrResult(correlation=0.01090625101555855, pvalue=0.015218559751104492)
+Ch (0.01) vs Nxt (5): SpearmanrResult(correlation=0.013604883719108537, pvalue=0.0024637850250571595)
+Ch (0.02) vs Bef (5): SpearmanrResult(correlation=0.0020852247140808501, pvalue=0.64261634512041999)
+Ch (0.02) vs Nxt (5): SpearmanrResult(correlation=0.0067188382386716081, pvalue=0.13485734610442646)
+Ch (0.03) vs Bef (5): SpearmanrResult(correlation=0.0052696865038068062, pvalue=0.2409090530007687)
+Ch (0.03) vs Nxt (5): SpearmanrResult(correlation=0.0047523945787923709, pvalue=0.29023876777874208)
+Ch (0.04) vs Bef (5): SpearmanrResult(correlation=0.0055120757343188088, pvalue=0.21995047538839296)
+Ch (0.04) vs Nxt (5): SpearmanrResult(correlation=0.0013149293987879469, pvalue=0.76981041918285587)
+Ch (0.05) vs Bef (5): SpearmanrResult(correlation=0.0054868539109823875, pvalue=0.22206827816173358)
+Ch (0.05) vs Nxt (5): SpearmanrResult(correlation=7.2469759570215428e-05, pvalue=0.98713280976060613)
+Ch (0.1) vs Bef (5): SpearmanrResult(correlation=0.00025841000242897536, pvalue=0.95414193342717368)
+Ch (0.1) vs Nxt (5): SpearmanrResult(correlation=-0.0011140940565400261, pvalue=0.80418919639494035)
+Ch (0.2) vs Bef (5): SpearmanrResult(correlation=-0.0022022102088557344, pvalue=0.62407889988264786)
+Ch (0.2) vs Nxt (5): SpearmanrResult(correlation=-0.0013478874728908073, pvalue=0.76420969279771001)
+M vs Bef (10): (0.0035819631943080493, 0.42539994483262655)
+M vs Nxt (10): (-0.006170392397248055, 0.16972274471904084)
+Ch (0) vs Bef (10): SpearmanrResult(correlation=0.029191914532574584, pvalue=8.1725897812046544e-11)
+Ch (0) vs Nxt (10): SpearmanrResult(correlation=0.028897280671129094, pvalue=1.2611534284150512e-10)
+Ch (0.01) vs Bef (10): SpearmanrResult(correlation=0.014424895823022116, pvalue=0.0013268723973312478)
+Ch (0.01) vs Nxt (10): SpearmanrResult(correlation=0.0067650304813034528, pvalue=0.13221543060801103)
+Ch (0.02) vs Bef (10): SpearmanrResult(correlation=0.0098134746487814131, pvalue=0.028975417206429061)
+Ch (0.02) vs Nxt (10): SpearmanrResult(correlation=0.0016584195309868842, pvalue=0.71209474255246175)
+Ch (0.03) vs Bef (10): SpearmanrResult(correlation=0.010461705218546226, pvalue=0.019907798385846782)
+Ch (0.03) vs Nxt (10): SpearmanrResult(correlation=-1.9444261520532161e-05, pvalue=0.99654765729591654)
+Ch (0.04) vs Bef (10): SpearmanrResult(correlation=0.0097896460556611362, pvalue=0.029367499699589527)
+Ch (0.04) vs Nxt (10): SpearmanrResult(correlation=-0.0044027382223551809, pvalue=0.32721684896638559)
+Ch (0.05) vs Bef (10): SpearmanrResult(correlation=0.0098977229255489772, pvalue=0.027625088325829029)
+Ch (0.05) vs Nxt (10): SpearmanrResult(correlation=-0.0039088059260175504, pvalue=0.3843986507319529)
+Ch (0.1) vs Bef (10): SpearmanrResult(correlation=-0.001677720535432271, pvalue=0.70889595746072553)
+Ch (0.1) vs Nxt (10): SpearmanrResult(correlation=-0.0058337455991089712, pvalue=0.19422548111244978)
+Ch (0.2) vs Bef (10): SpearmanrResult(correlation=0.00015667849030959674, pvalue=0.9721871686286101)
+Ch (0.2) vs Nxt (10): SpearmanrResult(correlation=-0.0036378364713969507, pvalue=0.41821528149552278)
+######################################################################################################################################################
+
+
+######################################################################################################################################################
+RelInst
+M vs Out (-0.0057396950947694878, 0.20146825212207023)
+Changes over Threshold 0: 1442
+Ch (0) vs Out : SpearmanrResult(correlation=0.0030826183682661368, pvalue=0.49268893774785094)
+P(fail | change): 228/1442 = 0.158113730929
+P(change | fail): 228/7465 = 0.0305425318151
+Changes over Threshold 0.01: 606
+Ch (0.01) vs Out : SpearmanrResult(correlation=0.0019504686991442435, pvalue=0.6642323736570257)
+P(fail | change): 97/606 = 0.160066006601
+P(change | fail): 97/7465 = 0.0129939718687
+Changes over Threshold 0.02: 379
+Ch (0.02) vs Out : SpearmanrResult(correlation=-0.0027345375377628234, pvalue=0.54280786922845781)
+P(fail | change): 55/379 = 0.145118733509
+P(change | fail): 55/7465 = 0.00736771600804
+Changes over Threshold 0.03: 259
+Ch (0.03) vs Out : SpearmanrResult(correlation=-0.0041097286870671341, pvalue=0.36038907676537457)
+P(fail | change): 35/259 = 0.135135135135
+P(change | fail): 35/7465 = 0.00468854655057
+Changes over Threshold 0.04: 186
+Ch (0.04) vs Out : SpearmanrResult(correlation=-0.005455059084502157, pvalue=0.22473535182205506)
+P(fail | change): 23/186 = 0.123655913978
+P(change | fail): 23/7465 = 0.00308104487609
+Changes over Threshold 0.05: 132
+Ch (0.05) vs Out : SpearmanrResult(correlation=-0.0029689602243351274, pvalue=0.50877679800507236)
+P(fail | change): 18/132 = 0.136363636364
+P(change | fail): 18/7465 = 0.00241125251172
+Changes over Threshold 0.1: 23
+Ch (0.1) vs Out : SpearmanrResult(correlation=-0.0043635145984759344, pvalue=0.33149610775028826)
+P(fail | change): 2/23 = 0.0869565217391
+P(change | fail): 2/7465 = 0.000267916945747
+Changes over Threshold 0.2: 4
+Ch (0.2) vs Out : SpearmanrResult(correlation=-0.0037729688487883827, pvalue=0.40108940976682983)
+P(fail | change): 0/4 = 0.0
+P(change | fail): 0/7465 = 0.0
+Changes over Threshold 0.5: 0
+M vs Bef (2): (-0.0076433043751999875, 0.088941514078783424)
+M vs Nxt (2): (-0.0070264809021338571, 0.11788075119136872)
+Ch (0) vs Bef (2): SpearmanrResult(correlation=-0.0043752282502124481, pvalue=0.33020947943064372)
+Ch (0) vs Nxt (2): SpearmanrResult(correlation=0.0033189796002556678, pvalue=0.46013412453601243)
+Ch (0.01) vs Bef (2): SpearmanrResult(correlation=0.0019631654454259459, pvalue=0.66218818105284671)
+Ch (0.01) vs Nxt (2): SpearmanrResult(correlation=0.0018675562425769807, pvalue=0.67769057623498585)
+Ch (0.02) vs Bef (2): SpearmanrResult(correlation=-0.0028227793496201589, pvalue=0.52987417752088328)
+Ch (0.02) vs Nxt (2): SpearmanrResult(correlation=-0.003012419988248422, pvalue=0.50260153688220888)
+Ch (0.03) vs Bef (2): SpearmanrResult(correlation=-0.003156990746869258, pvalue=0.48232012456801365)
+Ch (0.03) vs Nxt (2): SpearmanrResult(correlation=-0.0025385763695312206, pvalue=0.57210800465289346)
+Ch (0.04) vs Bef (2): SpearmanrResult(correlation=-0.0077046319852704, pvalue=0.086408199214036779)
+Ch (0.04) vs Nxt (2): SpearmanrResult(correlation=-0.0057947069520596023, pvalue=0.19719069171225465)
+Ch (0.05) vs Bef (2): SpearmanrResult(correlation=-0.0057481550582579987, pvalue=0.20081374598408314)
+Ch (0.05) vs Nxt (2): SpearmanrResult(correlation=-0.00509816084114636, pvalue=0.25655128207048816)
+Ch (0.1) vs Bef (2): SpearmanrResult(correlation=-0.0026308405615204904, pvalue=0.55822316630175717)
+Ch (0.1) vs Nxt (2): SpearmanrResult(correlation=-0.004322728455658416, pvalue=0.33604545287303655)
+Ch (0.2) vs Bef (2): SpearmanrResult(correlation=-0.0045662494779428256, pvalue=0.30953245445351324)
+Ch (0.2) vs Nxt (2): SpearmanrResult(correlation=0.00013669390078785426, pvalue=0.97573160584692387)
+M vs Bef (3): (-0.0075091801940887258, 0.09469383947993977)
+M vs Nxt (3): (-0.0067940628737796736, 0.1305363277241999)
+Ch (0) vs Bef (3): SpearmanrResult(correlation=-0.0033190938313052798, pvalue=0.46012321296825265)
+Ch (0) vs Nxt (3): SpearmanrResult(correlation=0.0024064705147513136, pvalue=0.59227335684642934)
+Ch (0.01) vs Bef (3): SpearmanrResult(correlation=0.0024555594737535377, pvalue=0.5847435775058496)
+Ch (0.01) vs Nxt (3): SpearmanrResult(correlation=0.0031483022295627039, pvalue=0.48353073046751571)
+Ch (0.02) vs Bef (3): SpearmanrResult(correlation=0.0001898844596086639, pvalue=0.96629342034514742)
+Ch (0.02) vs Nxt (3): SpearmanrResult(correlation=-0.0014440026612393402, pvalue=0.74794273042435133)
+Ch (0.03) vs Bef (3): SpearmanrResult(correlation=0.0004731327130842612, pvalue=0.91614371439025799)
+Ch (0.03) vs Nxt (3): SpearmanrResult(correlation=-0.0026741726862422881, pvalue=0.55176315644513263)
+Ch (0.04) vs Bef (3): SpearmanrResult(correlation=-0.0038469223355402449, pvalue=0.39193705802749024)
+Ch (0.04) vs Nxt (3): SpearmanrResult(correlation=-0.0064552936817481475, pvalue=0.15083252824369223)
+Ch (0.05) vs Bef (3): SpearmanrResult(correlation=-0.0040868877516978411, pvalue=0.36307934725870927)
+Ch (0.05) vs Nxt (3): SpearmanrResult(correlation=-0.0050277354015778224, pvalue=0.26318465102688193)
+Ch (0.1) vs Bef (3): SpearmanrResult(correlation=-0.0041479452694620795, pvalue=0.35595446452394663)
+Ch (0.1) vs Nxt (3): SpearmanrResult(correlation=-0.0022771253982832021, pvalue=0.61232353904330172)
+Ch (0.2) vs Bef (3): SpearmanrResult(correlation=-0.0051553979240019695, pvalue=0.25125490482607865)
+Ch (0.2) vs Nxt (3): SpearmanrResult(correlation=0.00013144399705332071, pvalue=0.97666362890846581)
+M vs Bef (5): (-0.0065186902033759929, 0.14686992029829088)
+M vs Nxt (5): (-0.0079341881924204598, 0.077447502761225737)
+Ch (0) vs Bef (5): SpearmanrResult(correlation=-0.0013828894170625234, pvalue=0.75827512410083098)
+Ch (0) vs Nxt (5): SpearmanrResult(correlation=-0.0024373225970773307, pvalue=0.58754328570783176)
+Ch (0.01) vs Bef (5): SpearmanrResult(correlation=0.0041240610440529098, pvalue=0.35874068635819245)
+Ch (0.01) vs Nxt (5): SpearmanrResult(correlation=0.0048392152165213052, pvalue=0.2815163370613476)
+Ch (0.02) vs Bef (5): SpearmanrResult(correlation=0.0020952838246154357, pvalue=0.64101339114446365)
+Ch (0.02) vs Nxt (5): SpearmanrResult(correlation=0.00048162619331443025, pvalue=0.91464578316151446)
+Ch (0.03) vs Bef (5): SpearmanrResult(correlation=0.0013906974512549867, pvalue=0.75695320113095543)
+Ch (0.03) vs Nxt (5): SpearmanrResult(correlation=-0.0011924913739103638, pvalue=0.79072009483355932)
+Ch (0.04) vs Bef (5): SpearmanrResult(correlation=-0.0035901560657540222, pvalue=0.42431856061698137)
+Ch (0.04) vs Nxt (5): SpearmanrResult(correlation=-0.0076976719375941695, pvalue=0.086702283691511103)
+Ch (0.05) vs Bef (5): SpearmanrResult(correlation=-0.0044472847203414793, pvalue=0.32232169237268693)
+Ch (0.05) vs Nxt (5): SpearmanrResult(correlation=-0.0059279990636188348, pvalue=0.18709518790890284)
+Ch (0.1) vs Bef (5): SpearmanrResult(correlation=-0.0015544580292013465, pvalue=0.72939729702795941)
+Ch (0.1) vs Nxt (5): SpearmanrResult(correlation=-0.004852232025105813, pvalue=0.28022409930051123)
+Ch (0.2) vs Bef (5): SpearmanrResult(correlation=-0.0022022102088557344, pvalue=0.62407889988264786)
+Ch (0.2) vs Nxt (5): SpearmanrResult(correlation=-0.0013478874728908073, pvalue=0.76420969279771001)
+M vs Bef (10): (-0.0036495321058424447, 0.41672045082867248)
+M vs Nxt (10): (-0.013086555347734938, 0.0035884280047128584)
+Ch (0) vs Bef (10): SpearmanrResult(correlation=-0.00025275564796311151, pvalue=0.95514656134826859)
+Ch (0) vs Nxt (10): SpearmanrResult(correlation=-0.0070186424571868494, pvalue=0.11832088389398338)
+Ch (0.01) vs Bef (10): SpearmanrResult(correlation=0.0065922814311005409, pvalue=0.14238149104784784)
+Ch (0.01) vs Nxt (10): SpearmanrResult(correlation=-0.0010265919065989869, pvalue=0.81930029541285876)
+Ch (0.02) vs Bef (10): SpearmanrResult(correlation=0.0068504814489460187, pvalue=0.12739918962692284)
+Ch (0.02) vs Nxt (10): SpearmanrResult(correlation=-0.0044648154689815815, pvalue=0.32044234076507677)
+Ch (0.03) vs Bef (10): SpearmanrResult(correlation=0.003967554399478471, pvalue=0.37729379378278993)
+Ch (0.03) vs Nxt (10): SpearmanrResult(correlation=-0.0078769837065299064, pvalue=0.079623827940597511)
+Ch (0.04) vs Bef (10): SpearmanrResult(correlation=-0.0026004619992234666, pvalue=0.56280824858280698)
+Ch (0.04) vs Nxt (10): SpearmanrResult(correlation=-0.013590071655543807, pvalue=0.0024920533117485186)
+Ch (0.05) vs Bef (10): SpearmanrResult(correlation=-0.0022570055920682801, pvalue=0.61549412953763538)
+Ch (0.05) vs Nxt (10): SpearmanrResult(correlation=-0.0107467685324516, pvalue=0.016778729930644859)
+Ch (0.1) vs Bef (10): SpearmanrResult(correlation=-0.002766230434362249, pvalue=0.5381825856189939)
+Ch (0.1) vs Nxt (10): SpearmanrResult(correlation=-0.0091299989843581977, pvalue=0.042182169002302865)
+Ch (0.2) vs Bef (10): SpearmanrResult(correlation=0.00015667849030959674, pvalue=0.9721871686286101)
+Ch (0.2) vs Nxt (10): SpearmanrResult(correlation=-0.0036378364713969507, pvalue=0.41821528149552278)
+######################################################################################################################################################
+
+
+######################################################################################################################################################
+NodeDegree
+M vs Out (-0.0038516679504645652, 0.39133886038517207)
+Changes over Threshold 0: 1312
+Ch (0) vs Out : SpearmanrResult(correlation=0.0030947749755212278, pvalue=0.49098450607971866)
+P(fail | change): 208/1312 = 0.158536585366
+P(change | fail): 208/7465 = 0.0278633623577
+Changes over Threshold 0.01: 985
+Ch (0.01) vs Out : SpearmanrResult(correlation=-0.0014232954976529854, pvalue=0.75142984174153216)
+P(fail | change): 147/985 = 0.14923857868
+P(change | fail): 147/7465 = 0.0196918955124
+Changes over Threshold 0.02: 736
+Ch (0.02) vs Out : SpearmanrResult(correlation=0.00020339341374327858, pvalue=0.9638959225356093)
+P(fail | change): 113/736 = 0.153532608696
+P(change | fail): 113/7465 = 0.0151373074347
+Changes over Threshold 0.03: 555
+Ch (0.03) vs Out : SpearmanrResult(correlation=0.0010919065716183676, pvalue=0.80800239651522276)
+P(fail | change): 87/555 = 0.156756756757
+P(change | fail): 87/7465 = 0.01165438714
+Changes over Threshold 0.04: 469
+Ch (0.04) vs Out : SpearmanrResult(correlation=-0.0019714809281523296, pvalue=0.6608401599922562)
+P(fail | change): 68/469 = 0.144989339019
+P(change | fail): 68/7465 = 0.00910917615539
+Changes over Threshold 0.05: 374
+Ch (0.05) vs Out : SpearmanrResult(correlation=-0.0008301000610717392, pvalue=0.85343391526443146)
+P(fail | change): 56/374 = 0.149732620321
+P(change | fail): 56/7465 = 0.00750167448091
+Changes over Threshold 0.1: 204
+Ch (0.1) vs Out : SpearmanrResult(correlation=-0.0015458722061748656, pvalue=0.73082067434228337)
+P(fail | change): 29/204 = 0.142156862745
+P(change | fail): 29/7465 = 0.00388479571333
+Changes over Threshold 0.2: 88
+Ch (0.2) vs Out : SpearmanrResult(correlation=-0.0081461641106413286, pvalue=0.069838167610461438)
+P(fail | change): 7/88 = 0.0795454545455
+P(change | fail): 7/7465 = 0.000937709310114
+Changes over Threshold 0.5: 2
+Ch (0.5) vs Out : SpearmanrResult(correlation=-0.0026678379923922835, pvalue=0.55269379366873328)
+P(fail | change): 0/2 = 0.0
+P(change | fail): 0/7465 = 0.0
+M vs Bef (2): (-0.0026812147781192469, 0.55071212764197663)
+M vs Nxt (2): (-0.0041943904862227904, 0.35058930694203461)
+Ch (0) vs Bef (2): SpearmanrResult(correlation=-0.0034447229818330943, pvalue=0.44331350191043439)
+Ch (0) vs Nxt (2): SpearmanrResult(correlation=0.003281743726999852, pvalue=0.46518283095942337)
+Ch (0.01) vs Bef (2): SpearmanrResult(correlation=-0.0044354506279708772, pvalue=0.32359634473249876)
+Ch (0.01) vs Nxt (2): SpearmanrResult(correlation=0.0013881960950660806, pvalue=0.75736949303952239)
+Ch (0.02) vs Bef (2): SpearmanrResult(correlation=0.00098560128795448145, pvalue=0.82638428141755116)
+Ch (0.02) vs Nxt (2): SpearmanrResult(correlation=0.0038406673522251842, pvalue=0.39270263625309521)
+Ch (0.03) vs Bef (2): SpearmanrResult(correlation=0.00047522456262654442, pvalue=0.91577349270108921)
+Ch (0.03) vs Nxt (2): SpearmanrResult(correlation=0.0023433114602501456, pvalue=0.60202258759727845)
+Ch (0.04) vs Bef (2): SpearmanrResult(correlation=-0.00062141145947116011, pvalue=0.89000938079176872)
+Ch (0.04) vs Nxt (2): SpearmanrResult(correlation=-0.00020232955567665257, pvalue=0.96408536321246019)
+Ch (0.05) vs Bef (2): SpearmanrResult(correlation=0.0026036428229031694, pvalue=0.56229908105662085)
+Ch (0.05) vs Nxt (2): SpearmanrResult(correlation=0.0011851238237846665, pvalue=0.79197713630080635)
+Ch (0.1) vs Bef (2): SpearmanrResult(correlation=0.0047147992162410177, pvalue=0.29405700514987271)
+Ch (0.1) vs Nxt (2): SpearmanrResult(correlation=0.00060335231512047695, pvalue=0.89318642169550477)
+Ch (0.2) vs Bef (2): SpearmanrResult(correlation=-0.0021270066537421623, pvalue=0.63595900400003735)
+Ch (0.2) vs Nxt (2): SpearmanrResult(correlation=-0.0057518459816268529, pvalue=0.20052472679965516)
+Ch (0.5) vs Bef (2): SpearmanrResult(correlation=-0.003228760776537202, pvalue=0.47241942750151766)
+Ch (0.5) vs Nxt (2): SpearmanrResult(correlation=-0.0032232009536025006, pvalue=0.47318238547877944)
+M vs Bef (3): (-0.0015390241963630046, 0.7319749029795799)
+M vs Nxt (3): (-0.0044763988395046354, 0.31915426407620806)
+Ch (0) vs Bef (3): SpearmanrResult(correlation=-0.0020163294623049997, pvalue=0.65363295089779383)
+Ch (0) vs Nxt (3): SpearmanrResult(correlation=0.0026020877611117425, pvalue=0.56253650442231451)
+Ch (0.01) vs Bef (3): SpearmanrResult(correlation=-0.0025102642307057044, pvalue=0.57640521616984097)
+Ch (0.01) vs Nxt (3): SpearmanrResult(correlation=0.0019882758905376916, pvalue=0.65814347386640293)
+Ch (0.02) vs Bef (3): SpearmanrResult(correlation=0.0033711251014862196, pvalue=0.4531202388890897)
+Ch (0.02) vs Nxt (3): SpearmanrResult(correlation=0.0047769424192980626, pvalue=0.28774459606272945)
+Ch (0.03) vs Bef (3): SpearmanrResult(correlation=0.0012289870055544831, pvalue=0.78446668578712164)
+Ch (0.03) vs Nxt (3): SpearmanrResult(correlation=0.0020571828872005165, pvalue=0.64708704054077226)
+Ch (0.04) vs Bef (3): SpearmanrResult(correlation=0.0016658928993637774, pvalue=0.71083604796198785)
+Ch (0.04) vs Nxt (3): SpearmanrResult(correlation=-0.0006475684273264719, pvalue=0.88541202880280045)
+Ch (0.05) vs Bef (3): SpearmanrResult(correlation=0.004856629709204612, pvalue=0.27977872356616368)
+Ch (0.05) vs Nxt (3): SpearmanrResult(correlation=0.0017935638453381122, pvalue=0.68978573578772695)
+Ch (0.1) vs Bef (3): SpearmanrResult(correlation=0.0065627255389243628, pvalue=0.14415105315577911)
+Ch (0.1) vs Nxt (3): SpearmanrResult(correlation=0.0022068241291895272, pvalue=0.62334552228443596)
+Ch (0.2) vs Bef (3): SpearmanrResult(correlation=0.00061567575146909473, pvalue=0.89101933523225696)
+Ch (0.2) vs Nxt (3): SpearmanrResult(correlation=-0.0033766412434361442, pvalue=0.45238135619187703)
+Ch (0.5) vs Bef (3): SpearmanrResult(correlation=-0.0036453432249110426, pvalue=0.41722255411691866)
+Ch (0.5) vs Nxt (3): SpearmanrResult(correlation=-0.0036395775270719262, pvalue=0.41795965432575821)
+M vs Bef (5): (-0.00080035427522275049, 0.85863668530244708)
+M vs Nxt (5): (-0.0054978783898813541, 0.22114079513403817)
+Ch (0) vs Bef (5): SpearmanrResult(correlation=0.00076334705308137756, pvalue=0.86510896787537617)
+Ch (0) vs Nxt (5): SpearmanrResult(correlation=-0.0020311449482961776, pvalue=0.65126253790709643)
+Ch (0.01) vs Bef (5): SpearmanrResult(correlation=0.00035042637729288144, pvalue=0.93784121461843806)
+Ch (0.01) vs Nxt (5): SpearmanrResult(correlation=0.00010330266196997284, pvalue=0.98165916985856283)
+Ch (0.02) vs Bef (5): SpearmanrResult(correlation=0.0058837721937312357, pvalue=0.19040610137918601)
+Ch (0.02) vs Nxt (5): SpearmanrResult(correlation=0.0034622153593149231, pvalue=0.44101555578523599)
+Ch (0.03) vs Bef (5): SpearmanrResult(correlation=0.0031815222135142536, pvalue=0.47893668640673004)
+Ch (0.03) vs Nxt (5): SpearmanrResult(correlation=0.0014088786713374755, pvalue=0.75387782772360312)
+Ch (0.04) vs Bef (5): SpearmanrResult(correlation=0.0038256063983376901, pvalue=0.39457561211820324)
+Ch (0.04) vs Nxt (5): SpearmanrResult(correlation=-0.00026726318096736924, pvalue=0.95257264782666717)
+Ch (0.05) vs Bef (5): SpearmanrResult(correlation=0.0063354452345132121, pvalue=0.15857031170402694)
+Ch (0.05) vs Nxt (5): SpearmanrResult(correlation=0.0031348140979799042, pvalue=0.48541527203773882)
+Ch (0.1) vs Bef (5): SpearmanrResult(correlation=0.0083221279009333769, pvalue=0.064021788392067416)
+Ch (0.1) vs Nxt (5): SpearmanrResult(correlation=0.0029362369030837814, pvalue=0.51348043777724228)
+Ch (0.2) vs Bef (5): SpearmanrResult(correlation=0.0037945621808103225, pvalue=0.39842346383182514)
+Ch (0.2) vs Nxt (5): SpearmanrResult(correlation=-0.0021012720590142028, pvalue=0.64005993897959657)
+Ch (0.5) vs Bef (5): SpearmanrResult(correlation=-0.004289134777845976, pvalue=0.33982902682136917)
+Ch (0.5) vs Nxt (5): SpearmanrResult(correlation=-0.0042810968439501457, pvalue=0.34073481996055754)
+M vs Bef (10): (0.0034506751458042205, 0.4425629423751607)
+M vs Nxt (10): (-0.0074272706790749305, 0.098372598897283822)
+Ch (0) vs Bef (10): SpearmanrResult(correlation=0.0027074068584633185, pvalue=0.54685889442728919)
+Ch (0) vs Nxt (10): SpearmanrResult(correlation=-0.0073506178801963622, pvalue=0.10189466106338059)
+Ch (0.01) vs Bef (10): SpearmanrResult(correlation=0.0057830418949471026, pvalue=0.19813027208760317)
+Ch (0.01) vs Nxt (10): SpearmanrResult(correlation=-0.0040952391089857281, pvalue=0.36213350759035268)
+Ch (0.02) vs Bef (10): SpearmanrResult(correlation=0.012102644375662466, pvalue=0.0070754914060613223)
+Ch (0.02) vs Nxt (10): SpearmanrResult(correlation=-0.0002850063994241503, pvalue=0.94943065190768017)
+Ch (0.03) vs Bef (10): SpearmanrResult(correlation=0.0079609166599877348, pvalue=0.076469092904265165)
+Ch (0.03) vs Nxt (10): SpearmanrResult(correlation=-0.0016550053695341283, pvalue=0.71266110639135138)
+Ch (0.04) vs Bef (10): SpearmanrResult(correlation=0.0081163503879328452, pvalue=0.070896299125294118)
+Ch (0.04) vs Nxt (10): SpearmanrResult(correlation=-0.0027762307979555929, pvalue=0.53671446007919754)
+Ch (0.05) vs Bef (10): SpearmanrResult(correlation=0.011583323549065097, pvalue=0.0099461801048435598)
+Ch (0.05) vs Nxt (10): SpearmanrResult(correlation=-0.00065905656534809612, pvalue=0.88340177925398367)
+Ch (0.1) vs Bef (10): SpearmanrResult(correlation=0.010165013977305921, pvalue=0.023694076373296184)
+Ch (0.1) vs Nxt (10): SpearmanrResult(correlation=-0.00017726878492791006, pvalue=0.96853386135075781)
+Ch (0.2) vs Bef (10): SpearmanrResult(correlation=0.0082184069018483158, pvalue=0.067421686592008687)
+Ch (0.2) vs Nxt (10): SpearmanrResult(correlation=-0.0034601574270865442, pvalue=0.44131022737229408)
+Ch (0.5) vs Bef (10): SpearmanrResult(correlation=0.0056245105921368761, pvalue=0.21070897283047557)
+Ch (0.5) vs Nxt (10): SpearmanrResult(correlation=-0.0053901815937221695, pvalue=0.23034427572097377)
+######################################################################################################################################################
+
+
+######################################################################################################################################################
+a2a
+M vs Out (0.006064163291096711, 0.17714691929705831)
+Changes over Threshold 0: 28155
+Ch (0) vs Out : SpearmanrResult(correlation=0.034025072038518039, pvalue=3.6058951961443526e-14)
+P(fail | change): 4542/28155 = 0.161321257326
+P(change | fail): 4542/7465 = 0.608439383791
+Changes over Threshold 0.01: 7969
+Ch (0.01) vs Out : SpearmanrResult(correlation=0.01020656155787795, pvalue=0.023114950621365486)
+P(fail | change): 1282/7969 = 0.160873384364
+P(change | fail): 1282/7465 = 0.171734762224
+Changes over Threshold 0.02: 5861
+Ch (0.02) vs Out : SpearmanrResult(correlation=0.0077270798538417408, pvalue=0.085489306994109018)
+P(fail | change): 936/5861 = 0.159699709947
+P(change | fail): 936/7465 = 0.12538513061
+Changes over Threshold 0.03: 4984
+Ch (0.03) vs Out : SpearmanrResult(correlation=0.0059742245975581412, pvalue=0.18365817005824389)
+P(fail | change): 787/4984 = 0.15790529695
+P(change | fail): 787/7465 = 0.105425318151
+Changes over Threshold 0.04: 4371
+Ch (0.04) vs Out : SpearmanrResult(correlation=0.006941754058186405, pvalue=0.12236901684752914)
+P(fail | change): 697/4371 = 0.159460077785
+P(change | fail): 697/7465 = 0.0933690555928
+Changes over Threshold 0.05: 3952
+Ch (0.05) vs Out : SpearmanrResult(correlation=0.0091980297581108501, pvalue=0.040651725529236148)
+P(fail | change): 643/3952 = 0.16270242915
+P(change | fail): 643/7465 = 0.0861352980576
+Changes over Threshold 0.1: 2659
+Ch (0.1) vs Out : SpearmanrResult(correlation=0.0085253411869888173, pvalue=0.057781877441955162)
+P(fail | change): 438/2659 = 0.164723580293
+P(change | fail): 438/7465 = 0.0586738111186
+Changes over Threshold 0.2: 1610
+Ch (0.2) vs Out : SpearmanrResult(correlation=0.0035337900722438799, pvalue=0.43160541401333297)
+P(fail | change): 255/1610 = 0.158385093168
+P(change | fail): 255/7465 = 0.0341594105827
+Changes over Threshold 0.5: 480
+Ch (0.5) vs Out : SpearmanrResult(correlation=0.0075762872404596462, pvalue=0.091771363792650412)
+P(fail | change): 87/480 = 0.18125
+P(change | fail): 87/7465 = 0.01165438714
+M vs Bef (2): (0.010590289401769381, 0.018428836612351666)
+M vs Nxt (2): (0.0064904344646014552, 0.14861743810179875)
+Ch (0) vs Bef (2): SpearmanrResult(correlation=0.034705087306543453, pvalue=1.1116334675847584e-14)
+Ch (0) vs Nxt (2): SpearmanrResult(correlation=0.036223739431181214, pvalue=7.3791485214202538e-16)
+Ch (0.01) vs Bef (2): SpearmanrResult(correlation=0.0094729988478270393, pvalue=0.035011914599566617)
+Ch (0.01) vs Nxt (2): SpearmanrResult(correlation=0.0093437665700800906, pvalue=0.037575219136653001)
+Ch (0.02) vs Bef (2): SpearmanrResult(correlation=0.0087026518952269954, pvalue=0.052773134737522077)
+Ch (0.02) vs Nxt (2): SpearmanrResult(correlation=0.0075551222482775618, pvalue=0.092688650359050009)
+Ch (0.03) vs Bef (2): SpearmanrResult(correlation=0.0078410066114105222, pvalue=0.080983551905457585)
+Ch (0.03) vs Nxt (2): SpearmanrResult(correlation=0.0065880515595679841, pvalue=0.14260548095913522)
+Ch (0.04) vs Bef (2): SpearmanrResult(correlation=0.0094241787635132562, pvalue=0.035962147783341739)
+Ch (0.04) vs Nxt (2): SpearmanrResult(correlation=0.0079239504867883778, pvalue=0.077821722413699779)
+Ch (0.05) vs Bef (2): SpearmanrResult(correlation=0.013204254675109751, pvalue=0.0032961790911642769)
+Ch (0.05) vs Nxt (2): SpearmanrResult(correlation=0.010048144819247143, pvalue=0.025336979458955477)
+Ch (0.1) vs Bef (2): SpearmanrResult(correlation=0.011405256733177747, pvalue=0.01114016443975017)
+Ch (0.1) vs Nxt (2): SpearmanrResult(correlation=0.008273366751918601, pvalue=0.065587559535938089)
+Ch (0.2) vs Bef (2): SpearmanrResult(correlation=0.0049562128444332098, pvalue=0.27003166248303057)
+Ch (0.2) vs Nxt (2): SpearmanrResult(correlation=0.002015874923954919, pvalue=0.65370266472844196)
+Ch (0.5) vs Bef (2): SpearmanrResult(correlation=0.0085513929208943171, pvalue=0.057026348063303402)
+Ch (0.5) vs Nxt (2): SpearmanrResult(correlation=0.0073888288700815286, pvalue=0.10009916501797625)
+M vs Bef (3): (0.011082036446095421, 0.013651382474103229)
+M vs Nxt (3): (0.0056755607605818801, 0.20656476708548865)
+Ch (0) vs Bef (3): SpearmanrResult(correlation=0.037333145991672353, pvalue=9.478947509311097e-17)
+Ch (0) vs Nxt (3): SpearmanrResult(correlation=0.037382513412430061, pvalue=8.6392959364839848e-17)
+Ch (0.01) vs Bef (3): SpearmanrResult(correlation=0.0077564779174203284, pvalue=0.084315430530930408)
+Ch (0.01) vs Nxt (3): SpearmanrResult(correlation=0.0069440978038461856, pvalue=0.12225419302536206)
+Ch (0.02) vs Bef (3): SpearmanrResult(correlation=0.0060219564120351961, pvalue=0.18019400677430944)
+Ch (0.02) vs Nxt (3): SpearmanrResult(correlation=0.0050829306381659084, pvalue=0.25797966137420764)
+Ch (0.03) vs Bef (3): SpearmanrResult(correlation=0.0063253445650332581, pvalue=0.15922678154930986)
+Ch (0.03) vs Nxt (3): SpearmanrResult(correlation=0.004590348169963095, pvalue=0.30699090173426963)
+Ch (0.04) vs Bef (3): SpearmanrResult(correlation=0.007723811929508731, pvalue=0.085631147331253918)
+Ch (0.04) vs Nxt (3): SpearmanrResult(correlation=0.0047525612380408212, pvalue=0.29021211206822733)
+Ch (0.05) vs Bef (3): SpearmanrResult(correlation=0.010441341083743578, pvalue=0.020140861985064186)
+Ch (0.05) vs Nxt (3): SpearmanrResult(correlation=0.0070949015197213396, pvalue=0.11434928253004931)
+Ch (0.1) vs Bef (3): SpearmanrResult(correlation=0.0096250187875406758, pvalue=0.032190857648025296)
+Ch (0.1) vs Nxt (3): SpearmanrResult(correlation=0.0057521268436570901, pvalue=0.20050729074658172)
+Ch (0.2) vs Bef (3): SpearmanrResult(correlation=0.0032429116436025322, pvalue=0.47048508682706913)
+Ch (0.2) vs Nxt (3): SpearmanrResult(correlation=-0.0009716445414704643, pvalue=0.82880614006165243)
+Ch (0.5) vs Bef (3): SpearmanrResult(correlation=0.0076142924701068405, pvalue=0.090163859113905787)
+Ch (0.5) vs Nxt (3): SpearmanrResult(correlation=0.006154451741286697, pvalue=0.1707978425361131)
+M vs Bef (5): (0.011104377318383889, 0.013464897990290528)
+M vs Nxt (5): (0.005171214293416224, 0.24981316125942168)
+Ch (0) vs Bef (5): SpearmanrResult(correlation=0.040242809412404823, pvalue=3.2700102001359011e-19)
+Ch (0) vs Nxt (5): SpearmanrResult(correlation=0.037865369849933293, pvalue=3.470406200795528e-17)
+Ch (0.01) vs Bef (5): SpearmanrResult(correlation=0.0096538010566608046, pvalue=0.031682391264264344)
+Ch (0.01) vs Nxt (5): SpearmanrResult(correlation=0.0032545009967670019, pvalue=0.46890948282445455)
+Ch (0.02) vs Bef (5): SpearmanrResult(correlation=0.0082483132522343672, pvalue=0.066416743837587999)
+Ch (0.02) vs Nxt (5): SpearmanrResult(correlation=0.0011378153001179007, pvalue=0.80010741625658)
+Ch (0.03) vs Bef (5): SpearmanrResult(correlation=0.0080444142745639945, pvalue=0.073418077683962774)
+Ch (0.03) vs Nxt (5): SpearmanrResult(correlation=0.0014814935920721244, pvalue=0.74163426429757584)
+Ch (0.04) vs Bef (5): SpearmanrResult(correlation=0.0098867260777926284, pvalue=0.027790330033278385)
+Ch (0.04) vs Nxt (5): SpearmanrResult(correlation=0.0026312922749276396, pvalue=0.55816751442298618)
+Ch (0.05) vs Bef (5): SpearmanrResult(correlation=0.011765117535569195, pvalue=0.0088372888120198806)
+Ch (0.05) vs Nxt (5): SpearmanrResult(correlation=0.0048910451144633374, pvalue=0.27639489751232715)
+Ch (0.1) vs Bef (5): SpearmanrResult(correlation=0.0084411933380204099, pvalue=0.060309220746580232)
+Ch (0.1) vs Nxt (5): SpearmanrResult(correlation=0.003040334259430448, pvalue=0.49866372556668925)
+Ch (0.2) vs Bef (5): SpearmanrResult(correlation=0.0022558888693020303, pvalue=0.61565109475460567)
+Ch (0.2) vs Nxt (5): SpearmanrResult(correlation=-0.0013615260868546934, pvalue=0.76189560132123124)
+Ch (0.5) vs Bef (5): SpearmanrResult(correlation=0.0080514086730604541, pvalue=0.073168286420698628)
+Ch (0.5) vs Nxt (5): SpearmanrResult(correlation=0.0028068501694121337, pvalue=0.53221117572776389)
+M vs Bef (10): (0.0099889674267723619, 0.026224185204703997)
+M vs Nxt (10): (0.0085823728852049228, 0.056152609490235754)
+Ch (0) vs Bef (10): SpearmanrResult(correlation=0.043194481212669313, pvalue=6.8143047584335327e-22)
+Ch (0) vs Nxt (10): SpearmanrResult(correlation=0.04240744207982388, pvalue=3.6899146330308928e-21)
+Ch (0.01) vs Bef (10): SpearmanrResult(correlation=0.0050724497359781635, pvalue=0.2589961567398647)
+Ch (0.01) vs Nxt (10): SpearmanrResult(correlation=-0.00063136654546737804, pvalue=0.88826775746869679)
+Ch (0.02) vs Bef (10): SpearmanrResult(correlation=0.0053670372786063817, pvalue=0.23235198407622223)
+Ch (0.02) vs Nxt (10): SpearmanrResult(correlation=-0.00015430390203598053, pvalue=0.97260852750513116)
+Ch (0.03) vs Bef (10): SpearmanrResult(correlation=0.0065484875416163216, pvalue=0.14505169976701457)
+Ch (0.03) vs Nxt (10): SpearmanrResult(correlation=0.001381068726089624, pvalue=0.75859528256878006)
+Ch (0.04) vs Bef (10): SpearmanrResult(correlation=0.0087216170131330789, pvalue=0.052278079548211412)
+Ch (0.04) vs Nxt (10): SpearmanrResult(correlation=0.0036877026625809933, pvalue=0.41186381087123991)
+Ch (0.05) vs Bef (10): SpearmanrResult(correlation=0.0098639774469259679, pvalue=0.028159301428177002)
+Ch (0.05) vs Nxt (10): SpearmanrResult(correlation=0.0067196599644145961, pvalue=0.13482933311228129)
+Ch (0.1) vs Bef (10): SpearmanrResult(correlation=0.0059907759639484474, pvalue=0.18249094467830543)
+Ch (0.1) vs Nxt (10): SpearmanrResult(correlation=0.0036154394917754062, pvalue=0.42108665801621104)
+Ch (0.2) vs Bef (10): SpearmanrResult(correlation=-0.0018216816095136521, pvalue=0.68520215007421681)
+Ch (0.2) vs Nxt (10): SpearmanrResult(correlation=-0.0014584410631717332, pvalue=0.74552662886481424)
+Ch (0.5) vs Bef (10): SpearmanrResult(correlation=0.0067594861957481307, pvalue=0.13253272858284276)
+Ch (0.5) vs Nxt (10): SpearmanrResult(correlation=0.0049663502225439967, pvalue=0.26909180600281207)
+######################################################################################################################################################
+
+
+######################################################################################################################################################
+cvgSource
+M vs Out (-0.0015756005248329047, 0.72585086149477829)
+Changes over Threshold 0: 16457
+Ch (0) vs Out : SpearmanrResult(correlation=0.018968867775636864, pvalue=2.4225025894692118e-05)
+P(fail | change): 2634/16457 = 0.160053472686
+P(change | fail): 2634/7465 = 0.352846617549
+Changes over Threshold 0.01: 15865
+Ch (0.01) vs Out : SpearmanrResult(correlation=0.020606269284148417, pvalue=4.5092824431307278e-06)
+P(fail | change): 2557/15865 = 0.161172392058
+P(change | fail): 2557/7465 = 0.342531815137
+Changes over Threshold 0.02: 12464
+Ch (0.02) vs Out : SpearmanrResult(correlation=0.016272552037326127, pvalue=0.00029267778123938653)
+P(fail | change): 2003/12464 = 0.160702824134
+P(change | fail): 2003/7465 = 0.268318821165
+Changes over Threshold 0.03: 9873
+Ch (0.03) vs Out : SpearmanrResult(correlation=0.0017611542690397332, pvalue=0.6950987219948972)
+P(fail | change): 1513/9873 = 0.153246227084
+P(change | fail): 1513/7465 = 0.202679169457
+Changes over Threshold 0.04: 7568
+Ch (0.04) vs Out : SpearmanrResult(correlation=0.0058374296334855824, pvalue=0.19389897622643842)
+P(fail | change): 1191/7568 = 0.157373150106
+P(change | fail): 1191/7465 = 0.159544541192
+Changes over Threshold 0.05: 6363
+Ch (0.05) vs Out : SpearmanrResult(correlation=0.0032638886299403737, pvalue=0.46760564573548313)
+P(fail | change): 994/6363 = 0.156215621562
+P(change | fail): 994/7465 = 0.133154722036
+Changes over Threshold 0.1: 1989
+Ch (0.1) vs Out : SpearmanrResult(correlation=-0.0044030984761756729, pvalue=0.32712842818484367)
+P(fail | change): 294/1989 = 0.147812971342
+P(change | fail): 294/7465 = 0.0393837910248
+Changes over Threshold 0.2: 580
+Ch (0.2) vs Out : SpearmanrResult(correlation=-0.0037605770740803488, pvalue=0.40263789411014872)
+P(fail | change): 84/580 = 0.144827586207
+P(change | fail): 84/7465 = 0.0112525117214
+Changes over Threshold 0.5: 73
+Ch (0.5) vs Out : SpearmanrResult(correlation=-0.00072912108047292824, pvalue=0.87109645565004612)
+P(fail | change): 11/73 = 0.150684931507
+P(change | fail): 11/7465 = 0.00147354320161
+M vs Bef (2): (0.0022399117040065655, 0.61814372063092993)
+M vs Nxt (2): (-0.0069571585766368101, 0.12154934414436658)
+Ch (0) vs Bef (2): SpearmanrResult(correlation=0.019729257855692444, pvalue=1.1278647560110808e-05)
+Ch (0) vs Nxt (2): SpearmanrResult(correlation=0.017557844993721018, pvalue=9.3170958913628668e-05)
+Ch (0.01) vs Bef (2): SpearmanrResult(correlation=0.021733784900643278, pvalue=1.3159659360927985e-06)
+Ch (0.01) vs Nxt (2): SpearmanrResult(correlation=0.019432835933973179, pvalue=1.5246366514245836e-05)
+Ch (0.02) vs Bef (2): SpearmanrResult(correlation=0.014977370118098108, pvalue=0.00085812082045663154)
+Ch (0.02) vs Nxt (2): SpearmanrResult(correlation=0.014716480701952646, pvalue=0.0010556330490775483)
+Ch (0.03) vs Bef (2): SpearmanrResult(correlation=-0.00034581871385740403, pvalue=0.9386550467456356)
+Ch (0.03) vs Nxt (2): SpearmanrResult(correlation=-0.0023767612845366037, pvalue=0.59684826747056774)
+Ch (0.04) vs Bef (2): SpearmanrResult(correlation=0.0052896640684489786, pvalue=0.23911601794637086)
+Ch (0.04) vs Nxt (2): SpearmanrResult(correlation=0.004632531660658943, pvalue=0.30256210548317075)
+Ch (0.05) vs Bef (2): SpearmanrResult(correlation=0.003550591849378535, pvalue=0.4294280661333667)
+Ch (0.05) vs Nxt (2): SpearmanrResult(correlation=0.0001808437774722498, pvalue=0.96789702902831232)
+Ch (0.1) vs Bef (2): SpearmanrResult(correlation=-0.0055313295626021608, pvalue=0.21832962485423116)
+Ch (0.1) vs Nxt (2): SpearmanrResult(correlation=-0.012477106845447079, pvalue=0.0054891531024907833)
+Ch (0.2) vs Bef (2): SpearmanrResult(correlation=-0.0027872945441324874, pvalue=0.53505959359489796)
+Ch (0.2) vs Nxt (2): SpearmanrResult(correlation=-0.010546899506901783, pvalue=0.018913559723404746)
+Ch (0.5) vs Bef (2): SpearmanrResult(correlation=0.0023095162198941807, pvalue=0.60727077730029977)
+Ch (0.5) vs Nxt (2): SpearmanrResult(correlation=-0.003945755297485011, pvalue=0.37988212354723183)
+M vs Bef (3): (5.850038875424801e-05, 0.98961274058478921)
+M vs Nxt (3): (-0.0081033180399842329, 0.071330381455442821)
+Ch (0) vs Bef (3): SpearmanrResult(correlation=0.021586673482857109, pvalue=1.5511672164322315e-06)
+Ch (0) vs Nxt (3): SpearmanrResult(correlation=0.01762714058437459, pvalue=8.7414667941069168e-05)
+Ch (0.01) vs Bef (3): SpearmanrResult(correlation=0.023690778278626676, pvalue=1.3423872078006796e-07)
+Ch (0.01) vs Nxt (3): SpearmanrResult(correlation=0.019356874406487919, pvalue=1.6462913661627508e-05)
+Ch (0.02) vs Bef (3): SpearmanrResult(correlation=0.015571023188355638, pvalue=0.00052937202953468293)
+Ch (0.02) vs Nxt (3): SpearmanrResult(correlation=0.014459565383317649, pvalue=0.001290666883337838)
+Ch (0.03) vs Bef (3): SpearmanrResult(correlation=-0.0012485352295554504, pvalue=0.78112504973514052)
+Ch (0.03) vs Nxt (3): SpearmanrResult(correlation=-0.0027764328620392136, pvalue=0.53665602901658804)
+Ch (0.04) vs Bef (3): SpearmanrResult(correlation=0.0048131577564581116, pvalue=0.28410558858976609)
+Ch (0.04) vs Nxt (3): SpearmanrResult(correlation=0.0022721955123985323, pvalue=0.61309364262647925)
+Ch (0.05) vs Bef (3): SpearmanrResult(correlation=0.0031134103665713293, pvalue=0.48839104147352319)
+Ch (0.05) vs Nxt (3): SpearmanrResult(correlation=-0.0018077320364708431, pvalue=0.68746406494995449)
+Ch (0.1) vs Bef (3): SpearmanrResult(correlation=-0.0093630755753118869, pvalue=0.037184280697286853)
+Ch (0.1) vs Nxt (3): SpearmanrResult(correlation=-0.017174899460149703, pvalue=0.00013213767723329123)
+Ch (0.2) vs Bef (3): SpearmanrResult(correlation=-0.0078323861429490989, pvalue=0.081321137728043294)
+Ch (0.2) vs Nxt (3): SpearmanrResult(correlation=-0.012597930781471969, pvalue=0.0050520552509305669)
+Ch (0.5) vs Bef (3): SpearmanrResult(correlation=0.00048202111010418083, pvalue=0.91457434527507175)
+Ch (0.5) vs Nxt (3): SpearmanrResult(correlation=-0.0052853317918767307, pvalue=0.23950571552283759)
+M vs Bef (5): (-0.0035597590811415033, 0.42825171523231842)
+M vs Nxt (5): (-0.01119536666921811, 0.012721173677652974)
+Ch (0) vs Bef (5): SpearmanrResult(correlation=0.022132354437623424, pvalue=8.3968624146181586e-07)
+Ch (0) vs Nxt (5): SpearmanrResult(correlation=0.020029390348581168, pvalue=8.2819454059105745e-06)
+Ch (0.01) vs Bef (5): SpearmanrResult(correlation=0.02518715458828789, pvalue=2.0704707100620458e-08)
+Ch (0.01) vs Nxt (5): SpearmanrResult(correlation=0.021498096185875264, pvalue=1.7123217370101852e-06)
+Ch (0.02) vs Bef (5): SpearmanrResult(correlation=0.013286247621934508, pvalue=0.0031081381330233812)
+Ch (0.02) vs Nxt (5): SpearmanrResult(correlation=0.012842506718361882, pvalue=0.0042622181342402725)
+Ch (0.03) vs Bef (5): SpearmanrResult(correlation=-0.0064595985435150945, pvalue=0.15056857627473516)
+Ch (0.03) vs Nxt (5): SpearmanrResult(correlation=-0.0070018543498615348, pvalue=0.11918511324258486)
+Ch (0.04) vs Bef (5): SpearmanrResult(correlation=0.001482236699486427, pvalue=0.74150930076939592)
+Ch (0.04) vs Nxt (5): SpearmanrResult(correlation=-0.0017030988695650967, pvalue=0.70468356680095345)
+Ch (0.05) vs Bef (5): SpearmanrResult(correlation=-0.00028761028975738193, pvalue=0.94896669243489273)
+Ch (0.05) vs Nxt (5): SpearmanrResult(correlation=-0.0065106168608209348, pvalue=0.14737110812738841)
+Ch (0.1) vs Bef (5): SpearmanrResult(correlation=-0.013942877827055087, pvalue=0.001915815716144732)
+Ch (0.1) vs Nxt (5): SpearmanrResult(correlation=-0.020499533529638809, pvalue=5.0567324445415113e-06)
+Ch (0.2) vs Bef (5): SpearmanrResult(correlation=-0.012613947142397166, pvalue=0.0049973609013889081)
+Ch (0.2) vs Nxt (5): SpearmanrResult(correlation=-0.018216603322087705, pvalue=5.0298266447476447e-05)
+Ch (0.5) vs Bef (5): SpearmanrResult(correlation=-0.001362781538591011, pvalue=0.7616826928776439)
+Ch (0.5) vs Nxt (5): SpearmanrResult(correlation=-0.0087025241421807321, pvalue=0.052783786277008166)
+M vs Bef (10): (-0.0058482461331483592, 0.19311922213358476)
+M vs Nxt (10): (-0.013937866614498145, 0.0019240658925759719)
+Ch (0) vs Bef (10): SpearmanrResult(correlation=0.024938013995861381, pvalue=2.852488753120896e-08)
+Ch (0) vs Nxt (10): SpearmanrResult(correlation=0.023978347357544939, pvalue=9.47006694119966e-08)
+Ch (0.01) vs Bef (10): SpearmanrResult(correlation=0.026762772341010384, pvalue=2.5766506231910246e-09)
+Ch (0.01) vs Nxt (10): SpearmanrResult(correlation=0.025413651215624122, pvalue=1.5480584685964373e-08)
+Ch (0.02) vs Bef (10): SpearmanrResult(correlation=0.014830274465424023, pvalue=0.0009657265637745162)
+Ch (0.02) vs Nxt (10): SpearmanrResult(correlation=0.01351265321785535, pvalue=0.0026377504884079373)
+Ch (0.03) vs Bef (10): SpearmanrResult(correlation=-0.0071302816421646605, pvalue=0.11257967640975565)
+Ch (0.03) vs Nxt (10): SpearmanrResult(correlation=-0.010409713014776112, pvalue=0.020530414793721675)
+Ch (0.04) vs Bef (10): SpearmanrResult(correlation=0.0012946298816139911, pvalue=0.77327715373328521)
+Ch (0.04) vs Nxt (10): SpearmanrResult(correlation=-0.0015544955566996529, pvalue=0.72940414535199949)
+Ch (0.05) vs Bef (10): SpearmanrResult(correlation=-0.00012856526482971423, pvalue=0.97717618643519555)
+Ch (0.05) vs Nxt (10): SpearmanrResult(correlation=-0.0068530513384599595, pvalue=0.12725648668263093)
+Ch (0.1) vs Bef (10): SpearmanrResult(correlation=-0.016578336716426476, pvalue=0.00022479258976717615)
+Ch (0.1) vs Nxt (10): SpearmanrResult(correlation=-0.026516671187110274, pvalue=3.597162926498865e-09)
+Ch (0.2) vs Bef (10): SpearmanrResult(correlation=-0.014565329779434729, pvalue=0.0011896137981066211)
+Ch (0.2) vs Nxt (10): SpearmanrResult(correlation=-0.02137936414629265, pvalue=1.9548100243302224e-06)
+Ch (0.5) vs Bef (10): SpearmanrResult(correlation=-0.0017773335989530524, pvalue=0.69246952273114271)
+Ch (0.5) vs Nxt (10): SpearmanrResult(correlation=-0.0095338791706952985, pvalue=0.033871446551101449)
+######################################################################################################################################################
+
+
+######################################################################################################################################################
+cvgTarget
+M vs Out (0.0030200492774045918, 0.50151145405555808)
+Changes over Threshold 0: 16618
+Ch (0) vs Out : SpearmanrResult(correlation=0.022787187481109118, pvalue=3.9376615733744199e-07)
+P(fail | change): 2692/16618 = 0.161993019617
+P(change | fail): 2692/7465 = 0.360616208975
+Changes over Threshold 0.01: 16010
+Ch (0.01) vs Out : SpearmanrResult(correlation=0.023643646100147533, pvalue=1.4201002672431286e-07)
+P(fail | change): 2607/16010 = 0.16283572767
+P(change | fail): 2607/7465 = 0.349229738781
+Changes over Threshold 0.02: 12631
+Ch (0.02) vs Out : SpearmanrResult(correlation=0.021393496929089775, pvalue=1.91999815261487e-06)
+P(fail | change): 2071/12631 = 0.163961681577
+P(change | fail): 2071/7465 = 0.277427997321
+Changes over Threshold 0.03: 10038
+Ch (0.03) vs Out : SpearmanrResult(correlation=0.0087355842961028256, pvalue=0.051878410880880008)
+P(fail | change): 1587/10038 = 0.158099222953
+P(change | fail): 1587/7465 = 0.21259209645
+Changes over Threshold 0.04: 7709
+Ch (0.04) vs Out : SpearmanrResult(correlation=0.012542065544853336, pvalue=0.0052489264996724606)
+P(fail | change): 1256/7709 = 0.162926449604
+P(change | fail): 1256/7465 = 0.168251841929
+Changes over Threshold 0.05: 6526
+Ch (0.05) vs Out : SpearmanrResult(correlation=0.010555193240216205, pvalue=0.01881765765284351)
+P(fail | change): 1062/6526 = 0.162733680662
+P(change | fail): 1062/7465 = 0.142263898192
+Changes over Threshold 0.1: 2069
+Ch (0.1) vs Out : SpearmanrResult(correlation=-0.0029238508361371196, pvalue=0.51523733661591753)
+P(fail | change): 310/2069 = 0.149830836153
+P(change | fail): 310/7465 = 0.0415271265908
+Changes over Threshold 0.2: 640
+Ch (0.2) vs Out : SpearmanrResult(correlation=-0.0044506455623170614, pvalue=0.32193171891149552)
+P(fail | change): 91/640 = 0.1421875
+P(change | fail): 91/7465 = 0.0121902210315
+Changes over Threshold 0.5: 81
+Ch (0.5) vs Out : SpearmanrResult(correlation=0.0018749700302930698, pvalue=0.67647731887223328)
+P(fail | change): 14/81 = 0.172839506173
+P(change | fail): 14/7465 = 0.00187541862023
+M vs Bef (2): (0.0060274979601524798, 0.17978908049011055)
+M vs Nxt (2): (-0.0039611394786258011, 0.3780271136871719)
+Ch (0) vs Bef (2): SpearmanrResult(correlation=0.024088951727653032, pvalue=8.2458000190358078e-08)
+Ch (0) vs Nxt (2): SpearmanrResult(correlation=0.018981020757986945, pvalue=2.3944918829937062e-05)
+Ch (0.01) vs Bef (2): SpearmanrResult(correlation=0.025568017132024511, pvalue=1.2631419655489582e-08)
+Ch (0.01) vs Nxt (2): SpearmanrResult(correlation=0.019739393935270785, pvalue=1.1162166956208808e-05)
+Ch (0.02) vs Bef (2): SpearmanrResult(correlation=0.022280378498261599, pvalue=7.0852037761176858e-07)
+Ch (0.02) vs Nxt (2): SpearmanrResult(correlation=0.016052167817304213, pvalue=0.00035349780672839836)
+Ch (0.03) vs Bef (2): SpearmanrResult(correlation=0.0074017768234894629, pvalue=0.099505706147832926)
+Ch (0.03) vs Nxt (2): SpearmanrResult(correlation=0.001005728426779693, pvalue=0.82289706103111981)
+Ch (0.04) vs Bef (2): SpearmanrResult(correlation=0.012377469775987792, pvalue=0.0058753923304952996)
+Ch (0.04) vs Nxt (2): SpearmanrResult(correlation=0.0053880350985811313, pvalue=0.23049230158166775)
+Ch (0.05) vs Bef (2): SpearmanrResult(correlation=0.01045448333078218, pvalue=0.019983272179475313)
+Ch (0.05) vs Nxt (2): SpearmanrResult(correlation=0.003485877786177215, pvalue=0.4378855237296535)
+Ch (0.1) vs Bef (2): SpearmanrResult(correlation=-0.0010734341831618378, pvalue=0.81119241774296735)
+Ch (0.1) vs Nxt (2): SpearmanrResult(correlation=-0.0094601528870079509, pvalue=0.035259846405907985)
+Ch (0.2) vs Bef (2): SpearmanrResult(correlation=-0.0035918122765687187, pvalue=0.42409083272999115)
+Ch (0.2) vs Nxt (2): SpearmanrResult(correlation=-0.01002434015137957, pvalue=0.025685908764690898)
+Ch (0.5) vs Bef (2): SpearmanrResult(correlation=0.0062150047421178174, pvalue=0.16662356748512849)
+Ch (0.5) vs Nxt (2): SpearmanrResult(correlation=-0.0025280663735815865, pvalue=0.57370000667950716)
+M vs Bef (3): (0.0034864055165741452, 0.43782079504546489)
+M vs Nxt (3): (-0.0063870909959432478, 0.15519512785369477)
+Ch (0) vs Bef (3): SpearmanrResult(correlation=0.025834546597588683, pvalue=8.9104347422713923e-09)
+Ch (0) vs Nxt (3): SpearmanrResult(correlation=0.019044850521372343, pvalue=2.2483045979670908e-05)
+Ch (0.01) vs Bef (3): SpearmanrResult(correlation=0.027530333000225327, pvalue=8.9073795490486447e-10)
+Ch (0.01) vs Nxt (3): SpearmanrResult(correlation=0.020296901029297293, pvalue=6.2602478943298551e-06)
+Ch (0.02) vs Bef (3): SpearmanrResult(correlation=0.022249233411969417, pvalue=7.3443374236637903e-07)
+Ch (0.02) vs Nxt (3): SpearmanrResult(correlation=0.014196956337432919, pvalue=0.0015798799920133993)
+Ch (0.03) vs Bef (3): SpearmanrResult(correlation=0.005771192765579203, pvalue=0.1990192698684258)
+Ch (0.03) vs Nxt (3): SpearmanrResult(correlation=-0.0013172050585782869, pvalue=0.76941879129004986)
+Ch (0.04) vs Bef (3): SpearmanrResult(correlation=0.010322204381704713, pvalue=0.021607468834084886)
+Ch (0.04) vs Nxt (3): SpearmanrResult(correlation=0.0025950345531541505, pvalue=0.56359606138351692)
+Ch (0.05) vs Bef (3): SpearmanrResult(correlation=0.0080568872591031196, pvalue=0.072967326487478001)
+Ch (0.05) vs Nxt (3): SpearmanrResult(correlation=-0.0011635133748431391, pvalue=0.79568759916918197)
+Ch (0.1) vs Bef (3): SpearmanrResult(correlation=-0.0038709773243961456, pvalue=0.38898302597176859)
+Ch (0.1) vs Nxt (3): SpearmanrResult(correlation=-0.014947326308910405, pvalue=0.00087908538754798669)
+Ch (0.2) vs Bef (3): SpearmanrResult(correlation=-0.0069336961072750617, pvalue=0.12281480145805285)
+Ch (0.2) vs Nxt (3): SpearmanrResult(correlation=-0.01304661568695625, pvalue=0.0036894641596540369)
+Ch (0.5) vs Bef (3): SpearmanrResult(correlation=0.0040878575182805845, pvalue=0.36296549090482533)
+Ch (0.5) vs Nxt (3): SpearmanrResult(correlation=-0.0042931210069557836, pvalue=0.33937064057567767)
+M vs Bef (5): (-0.0013129703503733413, 0.77014371144193916)
+M vs Nxt (5): (-0.01009287854059911, 0.024696714223173533)
+Ch (0) vs Bef (5): SpearmanrResult(correlation=0.025947288510477368, pvalue=7.6839054337408386e-09)
+Ch (0) vs Nxt (5): SpearmanrResult(correlation=0.021220044485403686, pvalue=2.3260341482262392e-06)
+Ch (0.01) vs Bef (5): SpearmanrResult(correlation=0.027437689973326424, pvalue=1.0145820107868666e-09)
+Ch (0.01) vs Nxt (5): SpearmanrResult(correlation=0.023601115009370979, pvalue=1.4972731989277889e-07)
+Ch (0.02) vs Bef (5): SpearmanrResult(correlation=0.019530781505799857, pvalue=1.3815665581021615e-05)
+Ch (0.02) vs Nxt (5): SpearmanrResult(correlation=0.015212623178424652, pvalue=0.00071024328008094731)
+Ch (0.03) vs Bef (5): SpearmanrResult(correlation=0.0012069714882027844, pvalue=0.78823902306644866)
+Ch (0.03) vs Nxt (5): SpearmanrResult(correlation=-0.0035500871245593346, pvalue=0.4295076330582468)
+Ch (0.04) vs Bef (5): SpearmanrResult(correlation=0.0066021582998160092, pvalue=0.14176441374688709)
+Ch (0.04) vs Nxt (5): SpearmanrResult(correlation=0.0002933109914985441, pvalue=0.94795658686283613)
+Ch (0.05) vs Bef (5): SpearmanrResult(correlation=0.0043942925436199114, pvalue=0.32812124395495945)
+Ch (0.05) vs Nxt (5): SpearmanrResult(correlation=-0.0029437992089504381, pvalue=0.51239638887840466)
+Ch (0.1) vs Bef (5): SpearmanrResult(correlation=-0.008401817751196557, pvalue=0.061516721621982309)
+Ch (0.1) vs Nxt (5): SpearmanrResult(correlation=-0.01999373761179048, pvalue=8.593974934282982e-06)
+Ch (0.2) vs Bef (5): SpearmanrResult(correlation=-0.012623355450571017, pvalue=0.0049649696795722419)
+Ch (0.2) vs Nxt (5): SpearmanrResult(correlation=-0.017620342490028307, pvalue=8.7994483558252561e-05)
+Ch (0.5) vs Bef (5): SpearmanrResult(correlation=-0.00046247580641092665, pvalue=0.91802741803715393)
+Ch (0.5) vs Nxt (5): SpearmanrResult(correlation=-0.0068479110036669495, pvalue=0.12752282717791605)
+M vs Bef (10): (-0.0049434649519095797, 0.2713043474125526)
+M vs Nxt (10): (-0.012936180756718534, 0.0039922083492011625)
+Ch (0) vs Bef (10): SpearmanrResult(correlation=0.028629928651351704, pvalue=1.8627089141399118e-10)
+Ch (0) vs Nxt (10): SpearmanrResult(correlation=0.025128716986779036, pvalue=2.235469997652e-08)
+Ch (0.01) vs Bef (10): SpearmanrResult(correlation=0.030467205034690172, pvalue=1.190449436786399e-11)
+Ch (0.01) vs Nxt (10): SpearmanrResult(correlation=0.027491518083771753, pvalue=9.4296910769398782e-10)
+Ch (0.02) vs Bef (10): SpearmanrResult(correlation=0.018109246256970558, pvalue=5.5744538051047672e-05)
+Ch (0.02) vs Nxt (10): SpearmanrResult(correlation=0.017155134039340773, pvalue=0.00013466312713143785)
+Ch (0.03) vs Bef (10): SpearmanrResult(correlation=-0.0022390570546350999, pvalue=0.61830611647318956)
+Ch (0.03) vs Nxt (10): SpearmanrResult(correlation=-0.0063944852733351376, pvalue=0.15474672585468671)
+Ch (0.04) vs Bef (10): SpearmanrResult(correlation=0.0028700622181231077, pvalue=0.52303817863573188)
+Ch (0.04) vs Nxt (10): SpearmanrResult(correlation=-0.00072472462257778928, pvalue=0.8718798063739952)
+Ch (0.05) vs Bef (10): SpearmanrResult(correlation=0.0023635261341429345, pvalue=0.59892269824979261)
+Ch (0.05) vs Nxt (10): SpearmanrResult(correlation=-0.003909756612597644, pvalue=0.38428303009715037)
+Ch (0.1) vs Bef (10): SpearmanrResult(correlation=-0.013991813246316796, pvalue=0.0018474722914829304)
+Ch (0.1) vs Nxt (10): SpearmanrResult(correlation=-0.026853286506472552, pvalue=2.2774055626190755e-09)
+Ch (0.2) vs Bef (10): SpearmanrResult(correlation=-0.016753743300594329, pvalue=0.00019267587071311322)
+Ch (0.2) vs Nxt (10): SpearmanrResult(correlation=-0.0204603406627182, pvalue=5.2769302558505841e-06)
+Ch (0.5) vs Bef (10): SpearmanrResult(correlation=0.00019657328583329902, pvalue=0.96510928888575398)
+Ch (0.5) vs Nxt (10): SpearmanrResult(correlation=-0.0081959138240085948, pvalue=0.068175197230961673)
+######################################################################################################################################################

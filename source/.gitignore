@@ -1,0 +1,12 @@
+log/
+logs/
+target/
+
+*.class
+.settings/
+.classpath
+.project
+
+extracted/
+
+*.json

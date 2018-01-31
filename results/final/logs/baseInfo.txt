@@ -1,0 +1,27 @@
+All analyzed builds: 67023
+Num of errors: 8494
+Num of compilation or dependency errors: 1722
+No Error: 58529
+Dependency Error: 937
+Compilation Error: 785
+Test Error: 3999
+Other Error: 2773
+Builds Failed: 10168
+
+
+Successful analyzed projects
+
+
+Number of Projects: 159
+All analyzed builds: 49531
+Num of errors: 7465
+Num of compilation or dependency errors: 652
+No Error: 42066
+Dependency Error: 367
+Compilation Error: 285
+Test Error: 2447
+Other Error: 4366
+Pass Rate: 42066 / 49531
+Passes: 0.8492863055460217
+Change Rate per Metric: [ 0.01611753  0.03584843  0.16084249  0.03427947  0.03118908  0.66930538
+  0.39121856  0.39504588]
